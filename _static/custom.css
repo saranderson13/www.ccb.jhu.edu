@@ -318,7 +318,7 @@ table.docutils tbody tr:nth-child(even) {
 }
 
 #welcome {
-    /* background-image: url("./images/campus2-desktop.webp"); */
+    background-image: url("./images/campus2.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -329,7 +329,7 @@ table.docutils tbody tr:nth-child(even) {
     color: var(--white);
     border-bottom: 5px solid var(--primary-heritage)
 }
-    @media screen and (max-width: 400px) {
+    /* @media screen and (max-width: 400px) {
         #welcome {
         background-image: url("./images/campus2-phone.webp");
         }
@@ -343,7 +343,7 @@ table.docutils tbody tr:nth-child(even) {
         #welcome {
             background-image: url("./images/campus2-desktop.webp")
         }
-    }
+    } */
 
 .welcome-outer-border {
     width: 60%;
