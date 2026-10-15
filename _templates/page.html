@@ -2,26 +2,40 @@
 
 {% block extrahead %}
   {{ super() }}
-  <meta name="description" content="Center for Computational Biology at Johns Hopkins University supporting research, computing, and collaboration.">
+  <meta name="description" content="blah blah blah computers">
   <meta name="author" content="Daniela Puiu">
   <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 {% endblock %}
+
 
 {% block docs_navbar %}
     {{ super() }}
 
     {% if pagename == "index" %}
     <div class="hero-banner">
-	<picture>
-          <source media="(max-width: 400px)" srcset="{{ pathto('_static/images/campus2-phone.webp', 1) }}">
-	  <source media="(max-width: 800px)" srcset="{{ pathto('_static/images/campus2-tablet.webp', 1) }}">
-  	  <img src="{{ pathto('_static/images/campus2-desktop.webp', 1) }}" alt="Johns Hopkins campus" fetchpriority="high">
-	</picture>
-        <p class="hero-text">
-          <b>JOHNS HOPKINS UNIVERSITY</b><br>Center for Computational Biology
-        </p>
+        <!-- <picture>
+            <source media="(max-width: 400px)" srcset="{{ pathto('_static/images/campus2-phone.webp', 1) }}">
+        <source media="(max-width: 800px)" srcset="{{ pathto('_static/images/campus2-tablet.webp', 1) }}">
+        <img src="{{ pathto('_static/images/campus2-desktop.webp', 1) }}" alt="Johns Hopkins campus" fetchpriority="high">
+        </picture> -->
+
+        <section id="welcome">
+            <div class="welcome-outer-border">
+                <div class="welcome-title">
+                    <div class="sm title caps" style="padding-left: 5px;">Johns Hopkins
+                        University</div>
+                    <div>Center for Computational Biology</div>
+                </div>
+            </div>
+        </section>
     </div>
-    <div  class="text-center fs-5 fw-bold">A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences</div>
+    <div class="text-center fs-5 fw-bold">A joint research center based in the Whiting School of Engineering, with faculty members in the Schools of Engineering, Medicine, Public Health, and Arts & Sciences</div>
     {% endif %}
 {% endblock docs_navbar %}
 
@@ -31,7 +45,7 @@
     <div>
         <a href="https://www.hopkinsmedicine.org/som/" alt="CCB"><img src="{{ pathto('_static/logos/SOM.webp', 1) }}" alt="SOM" width="200"></a>
         <a href="https://publichealth.jhu.edu/" alt="BSPH"><img src="{{ pathto('_static/logos/BSPH.webp', 1) }}"  alt="BSPH" width="200"></a>
-        <a href="https://engineering.jhu.edu/" alt="WSE"><img src="{{ pathto('_static/logos/WSE.webp', 1) }}"  alt="WSE" width="200"></a>                
+        <a href="https://engineering.jhu.edu/" alt="WSE"><img src="{{ pathto('_static/logos/WSE.webp', 1) }}"  alt="WSE" width="200"></a>
     </div>
 </div>
 {% endblock footer %}
