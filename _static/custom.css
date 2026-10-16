@@ -8,15 +8,15 @@
 ======================================================================*/
 
 :root {
-    /* CCB colors */
-    --ccb-blue: #002d72;
-    --ccb-light-blue: #68ace5;
-    --ccb-white: #ffffff;
-    --ccb-yellow: #fdb515;
+    /* CCB colors
+    --primary-heritage: #002d72;
+    --primary-spirit: #68ace5;
+    --white: #ffffff;
+    --accent-gold: #fdb515;
 
-    /* Other site colors */
-    --search-yellow: #ffeb3b;
-    --table-gray: #d6d8da;
+    Other site colors
+    --accent-gold: #ffeb3b;
+    --light-gray: #d6d8da; */
 
     /* COLORS */
     --primary-heritage: rgb(0, 45, 114);
@@ -63,7 +63,7 @@
 
 /* Default page font and line spacing */
 body {
-    font-family: "Inter", sans-serif;
+    font-family: var(--work-sans), sans-serif;
     line-height: 1.6;
 }
 
@@ -73,19 +73,20 @@ body {
 
 /* Main navigation bar */
 .navbar {
-    background-color: var(--ccb-blue) !important;
+    background-color: var(--primary-heritage) !important;
 }
 
 /* Navigation links */
 .bd-header .nav-item .nav-link {
-    color: var(--ccb-light-blue) !important;
-    font-weight: 700;
+    color: var(--primary-spirit) !important;
+    font-weight: 400;
+    font-family: var(--oswald)
 }
 
 /* Add separators between navigation links */
 .bd-header .nav-item:not(:last-child) .nav-link::after {
     content: " |";
-    color: var(--ccb-white);
+    color: var(--white);
     margin-left: 10px;
 }
 
@@ -96,18 +97,18 @@ body {
 
 /* Announcement bar */
 .bd-header-announcement {
-    background-color: var(--ccb-light-blue) !important;
-    color: var(--ccb-white) !important;
+    background-color: var(--primary-spirit) !important;
+    color: var(--white) !important;
 }
 
 /* Announcement text */
 .bd-header-announcement__content,
 .announcement {
-    color: var(--search-yellow);
+    color: var(--accent-gold);
 }
 
 .svg-inline--fa {
-    color: var(--ccb-light-blue);
+    color: var(--primary-spirit);
 }
 
 
@@ -121,8 +122,8 @@ body {
     justify-content: space-between !important;
     align-items: center !important;
 
-    background-color: var(--ccb-blue) !important;
-    color: var(--ccb-white) !important;
+    background-color: var(--primary-heritage) !important;
+    color: var(--white) !important;
 }
 
 /* Footer container */
@@ -132,8 +133,8 @@ body {
 
     width: 100% !important;
 
-    background-color: var(--ccb-blue);
-    color: var(--ccb-white);
+    background-color: var(--primary-heritage);
+    color: var(--white);
 }
 
 /* Footer top row */
@@ -205,8 +206,8 @@ mark,
 .highlighted,
 .search li em,
 span.highlight {
-    background-color: var(--search-yellow) !important;
-    color: var(--ccb-white) !important;
+    background-color: var(--accent-gold) !important;
+    color: var(--white) !important;
 
     padding: 2px 3px;
     border-radius: 3px;
@@ -234,7 +235,7 @@ table.docutils td,
 
 /* Alternate row background color */
 table.docutils tbody tr:nth-child(even) {
-    background-color: var(--table-gray);
+    background-color: var(--light-gray);
 }
 
 
@@ -261,15 +262,14 @@ table.docutils tbody tr:nth-child(even) {
     overflow: hidden;
 }
 
+/* DEPRECATED */
 /* Hero image */
 /* .hero-banner img {
     display: block;
     width: 100%;
     height: auto;
 } */
-
-/*
-.hero-banner::before {
+/*.hero-banner::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -283,10 +283,8 @@ table.docutils tbody tr:nth-child(even) {
     );
 }
 */
-
 /* Text displayed over the hero image */
-/* DEPRECATED */
-.hero-text {
+/* .hero-text {
     position: absolute;
 
     top: 20%;
@@ -295,28 +293,29 @@ table.docutils tbody tr:nth-child(even) {
 
     box-sizing: border-box;
 
-    color: var(--ccb-white);
+    color: var(--white);
     font-family: var(--oswald);
     font-weight: 500;
     font-size: clamp(0.8rem, 3vw, 2rem);
     line-height: 1.6;
     text-align: left;
 
-    /* Prevent long words from overflowing */
+    Prevent long words from overflowing
     overflow-wrap: break-word;
 
-    /* Semi-transparent CCB blue background */
+    Semi-transparent CCB blue background
     background: rgba(0, 45, 114, 0.5);
 
-    /* CCB-style accent borders */
-    border-left: 3px solid var(--ccb-yellow);
-    border-bottom: 3px solid var(--ccb-yellow);
+    CCB-style accent borders
+    border-left: 3px solid var(--accent-gold);
+    border-bottom: 3px solid var(--accent-gold);
 
-    /*padding: 8px 16px;*/
+    padding: 8px 16px;
 
-    /* Improve readability over the image */
+    Improve readability over the image
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
+} */
+
 
 #welcome {
     background-image: url("./images/campus2.jpeg");
