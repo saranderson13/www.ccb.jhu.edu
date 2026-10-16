@@ -72,23 +72,41 @@ body {
 ======================================================================*/
 
 /* Main navigation bar */
-.navbar {
+.bd-header {
+    /* important required because sphinx scss also uses it to override bootstrap. */
     background-color: var(--primary-heritage) !important;
 }
 
 /* Navigation links */
-.bd-header .nav-item .nav-link {
-    color: var(--primary-spirit) !important;
+.bd-header ul.navbar-nav>li.nav-item>a.nav-link {
+    color: var(--primary-spirit);
     font-weight: 400;
     font-family: var(--oswald)
 }
-
-/* Add separators between navigation links */
-.bd-header .nav-item:not(:last-child) .nav-link::after {
-    content: " |";
-    color: var(--white);
-    margin-left: 10px;
+.bd-header ul.navbar-nav>li.nav-item>a.nav-link:hover {
+    color: var(--accent-gold);
 }
+.bd-header ul.navbar-nav>li.nav-item>.nav-link:hover::before {
+    border-bottom: max(3px, .1875rem, .12em) solid var(--accent-mint)
+}
+
+
+/* Navlink separators */
+.bd-header ul.navbar-nav>li.nav-item {
+    margin-inline: 0px;
+}
+ul.navbar-nav li {
+    flex-direction: row;
+    align-items: center;
+}
+ul.navbar-nav li:not(:last-child)::after {
+    content: "|";
+    color: var(--white);
+    padding: 0px 4px;
+    font-weight: 400;
+}
+
+
 
 /* Enlarge the navbar logo */
 .bd-header .navbar-brand img {
