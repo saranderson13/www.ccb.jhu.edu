@@ -73,7 +73,7 @@ body {
 
 /* Main navigation bar */
 .bd-header {
-    /* important required because sphinx scss also uses it to override bootstrap. */
+    /* !important required because sphinx scss uses it to override bootstrap. */
     background-color: var(--primary-heritage) !important;
 }
 
@@ -87,7 +87,7 @@ body {
     color: var(--accent-gold);
 }
 .bd-header ul.navbar-nav>li.nav-item>.nav-link:hover::before {
-    border-bottom: max(3px, .1875rem, .12em) solid var(--accent-mint)
+    border-bottom: max(2px, .125rem, .1em) solid var(--accent-mint)
 }
 
 
@@ -112,6 +112,14 @@ ul.navbar-nav li:not(:last-child)::after {
 .bd-header .navbar-brand img {
     transform: scale(1.5);
 }
+
+
+
+/* Search Field */
+
+
+
+
 
 /* Announcement bar */
 .bd-header-announcement {
