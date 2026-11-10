@@ -75,21 +75,39 @@ body {
 .bd-header {
     /* !important required because sphinx scss uses it to override bootstrap. */
     background-color: var(--primary-heritage) !important;
+    padding: 20px;
+}
+.bd-header .navbar-header-items {
+    justify-content: end;
+}
+div.me-auto.navbar-header-items__center {
+    margin-right: 30px !important;
 }
 
 /* Navigation links */
+.bd-header ul.navbar-nav {
+    font-size:1.15em;
+}
 .bd-header ul.navbar-nav>li.nav-item>a.nav-link {
     color: var(--primary-spirit);
     font-weight: 400;
-    font-family: var(--oswald)
+    font-family: var(--oswald);
 }
 .bd-header ul.navbar-nav>li.nav-item>a.nav-link:hover {
     color: var(--accent-gold);
 }
 .bd-header ul.navbar-nav>li.nav-item>.nav-link:hover::before {
-    border-bottom: max(2px, .125rem, .1em) solid var(--accent-mint)
+    border-bottom: max(2px, .125rem, .1em) solid var(--primary-spirit)
 }
-
+html .pst-navbar-icon:hover::before {
+    border-bottom: none;
+}
+.navbar-header-items__end>.navbar-item:not(:first-child) {
+    color: var(--white)
+}
+.theme-switch-container.dropdown {
+    color: var(--primary-spirit);
+}
 
 /* Navlink separators */
 .bd-header ul.navbar-nav>li.nav-item {
@@ -104,19 +122,27 @@ ul.navbar-nav li:not(:last-child)::after {
     color: var(--white);
     padding: 0px 4px;
     font-weight: 400;
+    font-size: 1.2em;
 }
 
 
 
-/* Enlarge the navbar logo */
+/* Navbar logo tweaks */
 .bd-header .navbar-brand img {
-    transform: scale(1.5);
+    transform: scale(2);
+}
+.navbar-brand.logo {
+    margin-left: 50px;
 }
 
 
 
 /* Search Field */
-
+.search-button-field {
+    border-radius: 0.5em;
+    padding: 0.3em;
+    font-size: 0.9em;
+}
 
 
 
