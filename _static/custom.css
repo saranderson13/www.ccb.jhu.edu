@@ -185,9 +185,18 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
     align-items: center;
-    border-bottom: 1px solid var(--white);
+    padding-top: 20px;
+    margin-bottom: 0px;
+    border-top: 1px solid var(--white);
+}
+
+@media (max-width: 977px) {
+    .footer-logos {
+        gap: 0px;
+    }
 }
 
 .footer-logos img {
@@ -199,7 +208,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin: 40px 0px 0px;
 }
 
 .footer-contact {
