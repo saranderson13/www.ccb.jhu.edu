@@ -207,6 +207,7 @@ footer {
     align-self: flex-start;
     padding: 5px 50px 5px 0px;
     border-right: 1px solid var(--white);
+    line-height: 1.2em;
 }
 
 .footer-sitemap {
@@ -223,6 +224,7 @@ footer {
     margin-top: 10px;
     font-size: 0.9em;
     text-transform: uppercase;
+    line-height: 1.1em;
 }
 
 .footer-copyright {
