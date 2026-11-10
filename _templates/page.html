@@ -36,11 +36,43 @@
 
 
 {% block footer %}
-<footer class="site-footer">
+<!-- <footer class="site-footer">
     <div>
         <a href="https://www.hopkinsmedicine.org/som/" alt="CCB"><img src="{{ pathto('_static/logos/SOM.webp', 1) }}" alt="SOM" width="200"></a>
         <a href="https://publichealth.jhu.edu/" alt="BSPH"><img src="{{ pathto('_static/logos/BSPH.webp', 1) }}"  alt="BSPH" width="200"></a>
         <a href="https://engineering.jhu.edu/" alt="WSE"><img src="{{ pathto('_static/logos/WSE.webp', 1) }}"  alt="WSE" width="200"></a>
     </div>
+</footer> -->
+
+<footer>
+    <div class="footer-logos">
+        <img alt="JH SOM Logo"
+            src="_static/logos/SOM.webp" />
+        <img alt="JH BSPH Logo"
+            src="_static/logos/BSPH.webp">
+        <img alt="JH WSE Logo"
+            src="_static/logos/WSE.webp" />
+    </div>
+
+    <div class="footer-info">
+        <div class="footer-contact">
+            <b>Johns Hopkins University<br />Center for Computational
+                Biology</b><br />
+            <div class="address">3400 N Charles St<br />
+                Wyman Park Building, Suite S200<br />
+                Baltimore, MD 21218</div>
+        </div>
+        <div class="footer-sitemap">
+            <a href="">About</a>
+            <a href="">People</a>
+            <a href="">Software</a>
+            <a href="">Data</a>
+            <a href="">Education</a>
+            <a href="">Consulting Core</a>
+        </div>
+    </div>
+
+    <div class="footer-copyright">© [start year]-2026 Center for Computational
+        Biology at Johns Hopkins University</div>
 </footer>
 {% endblock footer %}

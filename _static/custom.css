@@ -168,7 +168,74 @@ ul.navbar-nav li:not(:last-child)::after {
   4. SITE HEADER / FOOTER
 ======================================================================*/
 
-/* Additional site header */
+footer {
+    color: var(--white);
+    background-color: var(--primary-heritage);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-logos {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    border-bottom: 1px solid var(--white);
+}
+
+.footer-logos img {
+    height: 90px;
+    margin: 10px 0px 8px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-contact {
+    text-align: left;
+    align-self: flex-start;
+    padding: 5px 50px 5px 0px;
+    border-right: 1px solid var(--white);
+}
+
+.footer-sitemap {
+    margin-left: 50px;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: var(--oswald);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-contact .address {
+    margin-top: 10px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.footer-copyright {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin: 0% 0% 0.5% 1%;
+}
+
+
+
+
+/* Additional site header
 .site-header {
     display: flex !important;
     justify-content: space-between !important;
@@ -178,7 +245,7 @@ ul.navbar-nav li:not(:last-child)::after {
     color: var(--white) !important;
 }
 
-/* Footer container */
+Footer container
 .site-footer {
     display: flex !important;
     flex-direction: column !important;
@@ -189,7 +256,7 @@ ul.navbar-nav li:not(:last-child)::after {
     color: var(--white);
 }
 
-/* Footer top row */
+Footer top row
 .site-footer > div:first-child {
     display: flex;
     justify-content: center;
@@ -199,7 +266,7 @@ ul.navbar-nav li:not(:last-child)::after {
     flex-wrap: wrap;
 }
 
-/* Footer bottom row */
+Footer bottom row
 .site-footer > div:nth-child(2) {
     display: flex;
     justify-content: center;
@@ -212,7 +279,7 @@ ul.navbar-nav li:not(:last-child)::after {
     line-height: 1.25;
 }
 
-/* Footer text */
+Footer text
 .site-footer > div:nth-child(2) > span {
     display: block;
     text-align: left;
@@ -221,7 +288,7 @@ ul.navbar-nav li:not(:last-child)::after {
 .site-footer img {
     width: clamp(80px, 25vw, 200px);
     height: auto;
-}
+} */
 
 /*======================================================================
   5. CONTENT
