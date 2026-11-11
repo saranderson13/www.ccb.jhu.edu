@@ -487,6 +487,21 @@ p:has(a[href$=".py"]) {
 }
 
 
+.card-headerx a {
+    color: #ff0000;
+}
+
+.card-bodyx {
+    color: #ff0;
+}
+
+/* !important required for some properties because child's sphinx class sets bg-color */
+div.card-classx>div>div{
+    background-color: #00f !important;
+    border: 5px solid #ff0000;
+}
+
+
 /*======================================================================
   END
 ======================================================================*/

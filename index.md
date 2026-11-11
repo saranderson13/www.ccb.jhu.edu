@@ -6,8 +6,11 @@ html_theme.sidebar_secondary.remove: true
 ::::{grid} 1 1 3 3
 
 :::{grid-item-card}
-## {ref}`LEADERSHIP <leadership>`	
+:class-item: card-classx
+{.card-headerx}
+## {ref}`LEADERSHIP <leadership>`
 
+{.card-bodyx}
 Meet the faculty and scientific leadership guiding the Center for Computational Biology!
 :::
 
@@ -22,7 +25,6 @@ Explore the high-performance computing, large-scale storage, and data resources 
 
 Interested in computational biology, genomics, and bioinformatics? Explore opportunities to work with CCB faculty and researchers?
 :::
-
 ::::
 
 ```{toctree}
@@ -38,8 +40,8 @@ CONSULTING CORE <cbcc/index>
 ```
 
 ```{raw} html
-<style> 
-h1 {display: none;} 
+<style>
+h1 {display: none;}
 </style>
 ```
 
