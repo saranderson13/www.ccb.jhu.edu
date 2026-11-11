@@ -8,16 +8,6 @@
 ======================================================================*/
 
 :root {
-    /* CCB colors
-    --primary-heritage: #002d72;
-    --primary-spirit: #68ace5;
-    --white: #ffffff;
-    --accent-gold: #fdb515;
-
-    Other site colors
-    --accent-gold: #ffeb3b;
-    --light-gray: #d6d8da; */
-
     /* COLORS */
     --primary-heritage: rgb(0, 45, 114);
     --primary-heritage-50: rgba(0, 45, 114, 0.5);
@@ -68,7 +58,7 @@ body {
 }
 
 /*======================================================================
-  3. HEADER / NAVBAR
+  3. NAVBAR
 ======================================================================*/
 
 /* Main navigation bar */
@@ -136,15 +126,12 @@ ul.navbar-nav li:not(:last-child)::after {
 }
 
 
-
 /* Search Field */
 .search-button-field {
     border-radius: 0.5em;
     padding: 0.3em;
     font-size: 0.9em;
 }
-
-
 
 
 /* Announcement bar */
@@ -164,8 +151,51 @@ ul.navbar-nav li:not(:last-child)::after {
 }
 
 
+
 /*======================================================================
-  4. SITE HEADER / FOOTER
+  4. HERO
+======================================================================*/
+
+/* Hero image container */
+.hero-banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#welcome {
+    background-image: url("./images/campus2.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    min-width: 640px;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    border-bottom: 5px solid var(--primary-heritage);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.welcome-outer-border {
+    width: 60%;
+    margin: 7% 0% 7% 10%;
+    border-left: 3px solid var(--accent-gold);
+    border-bottom: 3px solid var(--accent-gold);
+    padding: 0px 0px 10px 10px;
+}
+
+.welcome-title {
+    background-color: var(--primary-heritage-80);
+    padding: 5%;
+    font-size: 1.9em;
+    letter-spacing: 2px;
+}
+
+
+
+/*======================================================================
+  5. SITE FOOTER
 ======================================================================*/
 
 footer {
@@ -265,65 +295,8 @@ footer {
 }
 
 
-
-
-/* Additional site header
-.site-header {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-
-    background-color: var(--primary-heritage) !important;
-    color: var(--white) !important;
-}
-
-Footer container
-.site-footer {
-    display: flex !important;
-    flex-direction: column !important;
-
-    width: 100% !important;
-
-    background-color: var(--primary-heritage);
-    color: var(--white);
-}
-
-Footer top row
-.site-footer > div:first-child {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    gap: 25px;
-    flex-wrap: wrap;
-}
-
-Footer bottom row
-.site-footer > div:nth-child(2) {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-
-    gap: 60px;
-    margin-top: 20px;
-
-    font-size: 0.85rem;
-    line-height: 1.25;
-}
-
-Footer text
-.site-footer > div:nth-child(2) > span {
-    display: block;
-    text-align: left;
-}
-
-.site-footer img {
-    width: clamp(80px, 25vw, 200px);
-    height: auto;
-} */
-
 /*======================================================================
-  5. CONTENT
+  6. CONTENT
 ======================================================================*/
 
 /*
@@ -337,8 +310,62 @@ Footer text
     max-width: none !important;
 }
 
+/* Index Page About Statement */
+#about-statement {
+    width: 100%;
+    padding: 5% 10% 0%;
+    background-color: var(--accent-mint);
+}
+
+.statement-title {
+    width: 100%;
+    color: var(--dark-gray);
+    border-bottom: 3px solid transparent;
+    background: linear-gradient(to right, var(--white-80) 0%, var(--accent-mint) 60%);
+    /* border-left: double 9px var(--primary-heritage); */
+    /* GRADIENT BOTTOM BORDER */
+    /* linear-gradient(var(--accent-mint), var(--accent-mint)) padding-box, */
+    /* linear-gradient(to right, var(--primary-heritage) 0%, var(--accent-mint) 80%) border-box; */
+    padding-left: 10px;
+}
+
+.statement-article {
+    display: flex;
+    gap: 40px;
+}
+
+.statement-article .statement {
+    width: 60%;
+    line-height: 1.2em;
+    padding: 20px 10px 40px 0px;
+}
+
+.statement-article .statement-image {
+    width: 40%;
+}
+
+.statement-image img {
+    width: 100%;
+    padding-top: 20px;
+}
+
+/* ---------- */
+
+.bg-accent {
+    width: 100%;
+    height: 100px;
+    background-color: var(--accent-mint);
+}
+
+.bg-accent img {
+    margin: 0% 3%;
+}
+
+/* ---------- */
+
+
 /*======================================================================
-  6. TYPOGRAPHY
+  7. TYPOGRAPHY
 ======================================================================*/
 
 /* Justify paragraphs on large screens */
@@ -349,7 +376,7 @@ Footer text
 }
 
 /*======================================================================
-  7. SEARCH
+  8. SEARCH
 ======================================================================*/
 
 /* Highlight matching search terms */
@@ -366,7 +393,7 @@ span.highlight {
 
 
 /*======================================================================
-  8. TABLES
+  9. TABLES
 ======================================================================*/
 
 /* Table layout and alignment */
@@ -402,105 +429,11 @@ table.docutils tbody tr:nth-child(even) {
     font-size: clamp(0.8rem, 2vw, 0.9rem);
 }
 
-/*======================================================================
-  10. HERO
-======================================================================*/
-
-/* Hero image container */
-.hero-banner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-/* DEPRECATED */
-/* Hero image */
-/* .hero-banner img {
-    display: block;
-    width: 100%;
-    height: auto;
-} */
-/*.hero-banner::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-
-    background: linear-gradient(
-        to right,
-        rgba(50, 50, 200, 1) 0%,
-        rgba(50, 50, 200, 0.7) 30%,
-        rgba(50, 50, 200, 0.2) 60%,
-        transparent 100%
-    );
-}
-*/
-/* Text displayed over the hero image */
-/* .hero-text {
-    position: absolute;
-
-    top: 20%;
-    left: 5%;
-    width: 60%;
-
-    box-sizing: border-box;
-
-    color: var(--white);
-    font-family: var(--oswald);
-    font-weight: 500;
-    font-size: clamp(0.8rem, 3vw, 2rem);
-    line-height: 1.6;
-    text-align: left;
-
-    Prevent long words from overflowing
-    overflow-wrap: break-word;
-
-    Semi-transparent CCB blue background
-    background: rgba(0, 45, 114, 0.5);
-
-    CCB-style accent borders
-    border-left: 3px solid var(--accent-gold);
-    border-bottom: 3px solid var(--accent-gold);
-
-    padding: 8px 16px;
-
-    Improve readability over the image
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-} */
-
-
-#welcome {
-    background-image: url("./images/campus2.jpeg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    min-width: 640px;
-    display: flex;
-    align-items: center;
-    color: var(--white);
-    border-bottom: 5px solid var(--primary-heritage);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-.welcome-outer-border {
-    width: 60%;
-    margin: 7% 0% 7% 10%;
-    border-left: 3px solid var(--accent-gold);
-    border-bottom: 3px solid var(--accent-gold);
-    padding: 0px 0px 10px 10px;
-}
-
-.welcome-title {
-    background-color: var(--primary-heritage-80);
-    padding: 5%;
-    font-size: 1.9em;
-    letter-spacing: 2px;
-}
 
 
 
 /*======================================================================
-  11. RESPONSIVE DESIGN
+  10. RESPONSIVE DESIGN
 ======================================================================*/
 
 /* Mobile */
@@ -527,7 +460,7 @@ table.docutils tbody tr:nth-child(even) {
 
 
 /*======================================================================
-  12. MISCELLANEOUS
+  11. MISCELLANEOUS
 ======================================================================*/
 
 /* Hide paragraphs containing links to Python source files */
