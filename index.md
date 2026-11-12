@@ -48,32 +48,6 @@ Most CCB faculty members describe job openings on their individual websites, whi
 ::::
 
 
-<!-- ::::{grid} 1 1 3 3 -->
-
-<!-- :::{grid-item-card} -->
-<!-- :class-item: indexpg-card -->
-
-
-<!-- {.indexpg-card-header}
-## {ref}`LEADERSHIP <leadership>`
-
-{.indexpg-card-body}
-Meet the faculty and scientific leadership guiding the Center for Computational Biology!
-:::
-
-:::{grid-item-card}
-## {ref}`COMPUTING INFRASTRUCTURE <computing-infrastructure>`
-
-Explore the high-performance computing, large-scale storage, and data resources supporting CCB research!
-::: -->
-
-<!-- :::{grid-item-card}
-## {ref}`JOIN US! <information>`
-
-Interested in computational biology, genomics, and bioinformatics? Explore opportunities to work with CCB faculty and researchers?
-:::
-:::: -->
-
 ```{toctree}
 :maxdepth: 1
 :hidden:
