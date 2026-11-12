@@ -36,9 +36,11 @@
 
 html[data-mode="dark"] {
     /* DARK MODE COLORS */
-    --accent-mint: rgba(134, 200, 188, 0.5)
+    --accent-mint: rgba(134, 200, 188, 0.5);
+    --accent-gold: #ae8e00;
+    /* --accent-medium-blue: #005091; */
 
-    /* TO CHANGE HERITAGE MUST SOMEHOW ADJUST MAIN LOGO */
+    /* TO CHANGE HERITAGE LOGO IN HEADER MUST BE TRANSPARENT */
     /* --primary-heritage: rgb(0, 32, 80); */
 }
 
@@ -385,6 +387,7 @@ html[data-mode="dark"] .statement-title {
 
 /* ---------- */
 
+/* HEX IMAGE ACCENT */
 .bg-accent {
     width: 100%;
     height: 100px;
@@ -403,11 +406,12 @@ html[data-mode="dark"] .statement-title {
 ======================================================================*/
 
 /* Justify paragraphs on large screens */
-@media (min-width: 1200px) {
+/* Deprecate. Broad specificity. */
+/* @media (min-width: 1200px) {
     .bd-content p {
         text-align: justify;
     }
-}
+} */
 
 /*======================================================================
   8. SEARCH
@@ -503,26 +507,70 @@ p:has(a[href$=".py"]) {
 }
 
 
-.card-sectionx {
+/* !important required for some properties even though !important is not best practices due several layers of redundant sphinx classes. */
+
+#indexpg-card-section {
     padding: 5% 5%;
 }
 
-html[data-mode="dark"] .card-sectionx {
-    background-color: var(--dark-gray);
+.indexpg-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    background: var(--white);
+    border: 5px solid var(--accent-gold) !important;
 }
 
-.card-headerx a {
-    color: #ff0000;
+@media (max-width: 767px) {
+    .indexpg-card {
+        flex-direction: row;
+    }
+
+    .indexpg-card img {
+        background-color: var(--primary-heritage);
+        width: 200px;
+    }
 }
 
-.card-bodyx {
-    color: #ff0;
+@media (max-width: 575px) {
+    .indexpg-card img {
+        width: 150px;
+    }
 }
 
-/* !important required for some properties because child's sphinx class sets bg-color */
-div.card-classx>div>div{
-    background-color: #00f !important;
-    border: 5px solid #ff0000;
+.indexpg-card-body {
+    background-color: var(--white) !important;
+}
+
+html[data-mode="dark"] .indexpg-card-body {
+    background-color: var(--dark-gray) !important;
+}
+
+.indexpg-card-body a, .indexpg-card-body a:link, .indexpg-card-body a:active, .indexpg-card-body a:visited {
+    font-family: var(--oswald);
+    font-size: 1.1em;
+    font-weight: 500;
+    color: var(--accent-medium-blue);
+    text-transform: uppercase;
+
+}
+.indexpg-card-body a:hover {
+    color: var(--accent-gold);
+}
+.indexpg-card-body p.rubric {
+    border: none;
+}
+
+div.indexpg-card{
+    border: 5px solid var(--accent-gold) !important;
+}
+
+div.indexpg-card-title {
+    font-family: var(--oswald);
+    font-size: 1.2em;
+    font-weight: 500;
+    display: block;
+    text-transform: uppercase;
 }
 
 
