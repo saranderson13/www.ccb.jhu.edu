@@ -1,37 +1,36 @@
+---
+html_theme.sidebar_primary.remove: true
+html_theme.sidebar_secondary.remove: true
+---
+
 (faculty)=
-# Faculty 
+# Faculty
 
 (steven-l-salzberg)=
-## [Steven L. Salzberg, Ph.D.](https://salzberg-lab.org)
+```{grid} 1 1 1 1
+:::{grid-item-card} Steven L. Salzberg, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: https://placehold.co/200x200
+:img-alt: placeholder
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Director, Center for Computational Biology<br>
+Bloomberg Distinguished Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-:::{image} /_static/people/steven-l-salzberg.webp
-:width: 240px
-:alt: Steven L. Salzberg, Ph.D.
+{.people-card-dept}
+[Department of Computer Science](https://www.cs.jhu.edu/)
+
+{.people-card-dept}
+[Bloomberg School of Public Health](https://publichealth.jhu.edu/)
+
+{.people-card-email}
+[salzberg@jhu.edu](mailto:salzberg@jhu.edu)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Bloomberg Distinguished Professor of Biomedical Engineering, Computer Science, and Biostatistics**  
-**Director, Center for Computational Biology**  
-
-{{ bme }}  
-
-{{ cs }}  
-
-{{ bsph }}  
-
-[salzberg@jhu.edu](mailto:salzberg@jhu.edu)  
-
-::::
 ```
 
 (dan-arking)=
@@ -53,15 +52,15 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor**  
+**Professor**
 
-{{ dgm }}  
+{{ dgm }}
 
-{{ cardio }}  
+{{ cardio }}
 
-{{ som }}  
+{{ som }}
 
-[arking@jhmi.edu](mailto:arking@jhmi.edu)  
+[arking@jhmi.edu](mailto:arking@jhmi.edu)
 
 ::::
 ```
@@ -85,11 +84,11 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor**  
+**Professor**
 
-{{ bme }}  
+{{ bme }}
 
-[joel.bader@jhu.edu](mailto:joel.bader@jhu.edu)  
+[joel.bader@jhu.edu](mailto:joel.bader@jhu.edu)
 
 ::::
 ```
@@ -113,17 +112,17 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Wu & Zhang Professor**  
-**Director, Malone Center for Engineering in Healthcare**  
-**Deputy Executive Director, AI-X Foundry**  
+**Wu & Zhang Professor**
+**Director, Malone Center for Engineering in Healthcare**
+**Deputy Executive Director, AI-X Foundry**
 
-{{ bme }}  
+{{ bme }}
 
-{{ cs }}  
+{{ cs }}
 
-{{ dgm }}  
+{{ dgm }}
 
-[ajbattle@jhu.edu](mailto:ajbattle@jhu.edu)  
+[ajbattle@jhu.edu](mailto:ajbattle@jhu.edu)
 
 ::::
 ```
@@ -147,15 +146,15 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor**  
+**Professor**
 
-{{ bme }}  
+{{ bme }}
 
-{{ dgm }}  
+{{ dgm }}
 
-{{ som }}  
+{{ som }}
 
-[mbeer@jhu.edu](mailto:mbeer@jhu.edu)  
+[mbeer@jhu.edu](mailto:mbeer@jhu.edu)
 
 ::::
 ```
@@ -179,13 +178,13 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Assistant Professor**  
+**Assistant Professor**
 
-{{ dgm }}  
+{{ dgm }}
 
-{{ wse }}  
+{{ wse }}
 
-[uthsav@jhu.edu](mailto:uthsav@jhu.edu)  
+[uthsav@jhu.edu](mailto:uthsav@jhu.edu)
 
 ::::
 ```
@@ -209,13 +208,13 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Associate Professor**  
+**Associate Professor**
 
-{{ bme }}  
+{{ bme }}
 
-{{ wse }}  
+{{ wse }}
 
-[jeanfan@jhu.edu](mailto:jeanfan@jhu.edu)  
+[jeanfan@jhu.edu](mailto:jeanfan@jhu.edu)
 
 ::::
 ```
@@ -239,15 +238,15 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Associate Professor**  
+**Associate Professor**
 
-{{ med }}  
+{{ med }}
 
-{{ dgm }}  
+{{ dgm }}
 
-{{ som }}  
+{{ som }}
 
-[florea@jhu.edu](mailto:florea@jhu.edu)  
+[florea@jhu.edu](mailto:florea@jhu.edu)
 
 ::::
 ```
@@ -271,14 +270,14 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor**  
+**Professor**
 
-{{ chembe }}  
+{{ chembe }}
 
- 
-Program in Molecular & Computational Biophysics  
 
-[jgray@jhu.edu](mailto:jgray@jhu.edu)  
+Program in Molecular & Computational Biophysics
+
+[jgray@jhu.edu](mailto:jgray@jhu.edu)
 
 ::::
 ```
@@ -302,15 +301,15 @@ Program in Molecular & Computational Biophysics
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor**  
+**Professor**
 
-{{ dgm }}  
+{{ dgm }}
 
-{{ bsph }}  
+{{ bsph }}
 
-{{ sph }}  
+{{ sph }}
 
-[kasperdanielhansen@gmail.com](mailto:kasperdanielhansen@gmail.com)  
+[kasperdanielhansen@gmail.com](mailto:kasperdanielhansen@gmail.com)
 
 ::::
 ```
@@ -334,22 +333,22 @@ Program in Molecular & Computational Biophysics
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Associate Professor**  
+**Associate Professor**
 
-{{ bme }}  
+{{ bme }}
 
-{{ wse }}  
+{{ wse }}
 
-{{ bsph }}  
+{{ bsph }}
 
-{{ sph }}  
+{{ sph }}
 
-{{ mc }}  
+{{ mc }}
 
- 
-Center for Imaging Science  
 
-[shicks19@jhu.edu](mailto:shicks19@jhu.edu)  
+Center for Imaging Science
+
+[shicks19@jhu.edu](mailto:shicks19@jhu.edu)
 
 ::::
 ```
@@ -373,13 +372,13 @@ Center for Imaging Science
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor**  
+**Professor**
 
-{{ bsph }}  
+{{ bsph }}
 
-{{ sph }}  
+{{ sph }}
 
-[hji@jhsph.edu](mailto:hji@jhsph.edu)  
+[hji@jhsph.edu](mailto:hji@jhsph.edu)
 
 ::::
 ```
@@ -403,14 +402,14 @@ Center for Imaging Science
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor**  
-**The William R. Brody Faculty Scholar**  
+**Professor**
+**The William R. Brody Faculty Scholar**
 
-{{ bme }}  
+{{ bme }}
 
-{{ dgm }}  
+{{ dgm }}
 
-[karchin@jhu.edu](mailto:karchin@jhu.edu)  
+[karchin@jhu.edu](mailto:karchin@jhu.edu)
 
 ::::
 ```
@@ -434,11 +433,11 @@ Center for Imaging Science
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor**  
+**Professor**
 
-{{ cs }}  
+{{ cs }}
 
-[langmea@cs.jhu.edu](mailto:langmea@cs.jhu.edu)  
+[langmea@cs.jhu.edu](mailto:langmea@cs.jhu.edu)
 
 ::::
 ```
@@ -462,17 +461,17 @@ Center for Imaging Science
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Adjunct Research Scientist**  
+**Adjunct Research Scientist**
 
-{{ bme }}  
+{{ bme }}
 
- 
-2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA  
 
- 
-1989-2017: Director, National Center for Biotechnology Information, NIH  
+2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA
 
-[dlipman4@jh.edu](mailto:dlipman4@jh.edu)  
+
+1989-2017: Director, National Center for Biotechnology Information, NIH
+
+[dlipman4@jh.edu](mailto:dlipman4@jh.edu)
 
 ::::
 ```
@@ -496,11 +495,11 @@ Center for Imaging Science
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Assistant Professor**  
+**Assistant Professor**
 
-{{ bio }}  
+{{ bio }}
 
-[rajiv.mccoy@jhu.edu](mailto:rajiv.mccoy@jhu.edu)  
+[rajiv.mccoy@jhu.edu](mailto:rajiv.mccoy@jhu.edu)
 
 ::::
 ```
@@ -524,16 +523,16 @@ Center for Imaging Science
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Associate Professor**  
-**Associate Director, Center for Computational Biology**  
+**Associate Professor**
+**Associate Director, Center for Computational Biology**
 
-{{ bme }}  
+{{ bme }}
 
-{{ dgm }}  
+{{ dgm }}
 
-{{ som }}  
+{{ som }}
 
-[mpertea@jhu.edu](mailto:mpertea@jhu.edu)  
+[mpertea@jhu.edu](mailto:mpertea@jhu.edu)
 
 ::::
 ```
@@ -557,15 +556,15 @@ Center for Imaging Science
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Bloomberg Distinguished Professor**  
+**Bloomberg Distinguished Professor**
 
-{{ cs }}  
+{{ cs }}
 
-{{ bme }}  
+{{ bme }}
 
-{{ dgm }}  
+{{ dgm }}
 
-[aphillippy@jhu.edu](mailto:aphillippy@jhu.edu)  
+[aphillippy@jhu.edu](mailto:aphillippy@jhu.edu)
 
 ::::
 ```
@@ -589,19 +588,19 @@ Center for Imaging Science
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Associate Professor**  
+**Associate Professor**
 
- 
-Machine Learning, Biomedical & Health Informatics  
 
-{{ cs }}  
+Machine Learning, Biomedical & Health Informatics
 
- 
-Department of Health Policy & Management  
+{{ cs }}
 
-{{ icm }}  
 
-[ssaria@cs.jhu.edu](mailto:ssaria@cs.jhu.edu)  
+Department of Health Policy & Management
+
+{{ icm }}
+
+[ssaria@cs.jhu.edu](mailto:ssaria@cs.jhu.edu)
 
 ::::
 ```
@@ -625,13 +624,13 @@ Department of Health Policy & Management
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Associate Professor**  
+**Associate Professor**
 
-{{ skcc }}  
+{{ skcc }}
 
-{{ som }}  
+{{ som }}
 
-[rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu)  
+[rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu)
 
 ::::
 ```
@@ -655,11 +654,11 @@ Department of Health Policy & Management
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Bloomberg Distinguished Professor**  
+**Bloomberg Distinguished Professor**
 
-{{ cs }}  
+{{ cs }}
 
-[mschatz@cs.jhu.edu](mailto:mschatz@cs.jhu.edu)  
+[mschatz@cs.jhu.edu](mailto:mschatz@cs.jhu.edu)
 
 ::::
 ```
@@ -683,13 +682,13 @@ Department of Health Policy & Management
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Associate Scientist**  
+**Associate Scientist**
 
-{{ bsph }}  
+{{ bsph }}
 
-{{ sph }}  
+{{ sph }}
 
-[mtaub@jhsph.edu](mailto:mtaub@jhsph.edu)  
+[mtaub@jhsph.edu](mailto:mtaub@jhsph.edu)
 
 ::::
 ```
@@ -713,11 +712,11 @@ Department of Health Policy & Management
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**In memoriam: Professor of Biology**  
+**In memoriam: Professor of Biology**
 
-{{ bio }}  
+{{ bio }}
 
-{{ ksas }}  
+{{ ksas }}
 
 ::::
 ```
@@ -741,13 +740,13 @@ Department of Health Policy & Management
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Associate Professor**  
+**Associate Professor**
 
-{{ bme }}  
+{{ bme }}
 
-{{ wse }}  
+{{ wse }}
 
-[wtimp@jhu.edu](mailto:wtimp@jhu.edu)  
+[wtimp@jhu.edu](mailto:wtimp@jhu.edu)
 
 ::::
 ```
@@ -771,14 +770,13 @@ Department of Health Policy & Management
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Research Scientist**  
+**Research Scientist**
 
-{{ bme }}  
+{{ bme }}
 
-{{ wse }}  
+{{ wse }}
 
-[alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)  
+[alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)
 
 ::::
 ```
-
