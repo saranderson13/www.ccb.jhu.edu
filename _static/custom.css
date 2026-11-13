@@ -596,6 +596,12 @@ div.people-card {
     width: 200px;
 }
 
+.people-card-title {
+    font-family: var(--oswald);
+    font-size: 1.3em;
+    margin-bottom: 0rem;
+}
+
 .people-card-body {
     padding: 1rem 2rem !important;
 }
@@ -605,40 +611,34 @@ div.people-card {
     line-height: 1em;
 }
 
-.people-card-title {
-    font-family: var(--oswald);
-    font-size: 1.3em;
-    margin-bottom: .2rem;
-}
-
 .people-card-position {
     font-weight: 500;
-    padding-bottom: 10px;
+    padding-bottom: .3rem;
 }
 
-.people-card-dept {
+.people-card-external-link {
     display: flex;
     flex-direction: row;
     gap: 7px;
     font-size: 0.8em
 }
 
-.people-card-dept::before {
+.people-card-external-link::before {
     content: "➤";
     font-size: 1.15em;
 }
 
-.people-card-dept a, .people-card-dept a:link, .people-card-dept a:active, .people-card-dept a:visited {
+.people-card-external-link a, .people-card-external-link a:link, .people-card-external-link a:active, .people-card-external-link a:visited {
 
 }
 
-.people-card-dept a:hover {
+.people-card-external-link a:hover {
 
 }
 
 .people-card-email {
     font-family: var(--oswald);
-    font-size: 1.02em;
+    font-size: 1em;
     display: flex;
     flex-direction: row;
     gap: 7px;
@@ -647,7 +647,7 @@ div.people-card {
 
 .people-card-email::before {
     content: "✉️";
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 

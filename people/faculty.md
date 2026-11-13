@@ -19,13 +19,16 @@ html_theme.sidebar_secondary.remove: true
 Director, Center for Computational Biology<br>
 Bloomberg Distinguished Professor
 
-{.people-card-dept}
+{.people-card-external-link}
+[Salzberg Lab Website](https://www.salzberg-lab.org)
+
+{.people-card-external-link}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-{.people-card-dept}
+{.people-card-external-link}
 [Department of Computer Science](https://www.cs.jhu.edu/)
 
-{.people-card-dept}
+{.people-card-external-link}
 [Bloomberg School of Public Health](https://publichealth.jhu.edu/)
 
 {.people-card-email}
