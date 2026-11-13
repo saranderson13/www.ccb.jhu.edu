@@ -1,0 +1,22 @@
+(fac-name-as-link)=
+```{grid} 1 1 1 1
+:::{grid-item-card} [FACULTY NAME, DEGREES]
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/FAC-NAME-AS-LINK.webp
+:img-alt: FACULTY NAME, DEGREES
+
+{.people-card-position}
+ALL POSITIONS, SEPARATED BY <BR>
+
+{.people-card-external-link}
+[LINKtext](LINKurl)
+
+{.people-card-external-link}
+[LINKtext](LINKurl)
+
+{.people-card-email}
+[EMAIL](mailto:EMAIL)
+:::
+```

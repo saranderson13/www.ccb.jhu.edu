@@ -12,8 +12,8 @@ html_theme.sidebar_secondary.remove: true
 :class-card: people-card
 :class-body: people-card-body
 :class-title: people-card-title
-:img-top: https://placehold.co/200x200
-:img-alt: placeholder
+:img-top: /_static/people/steven-l-salzberg.webp
+:img-alt: Steven L. Salzberg, Ph.D.
 
 {.people-card-position}
 Director, Center for Computational Biology<br>
@@ -37,252 +37,222 @@ Bloomberg Distinguished Professor
 ```
 
 (dan-arking)=
-## [Dan Arking, Ph.D.](https://github.com/TMAGOC/edge-pro/wiki)
+```{grid} 1 1 1 1
+:::{grid-item-card} Dan Arking, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/dan-arking.webp
+:img-alt: Dan Arking, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-external-link}
+[Arking Lab Github ******](https://github.com/TMAGOC/edge-pro/wiki)
 
-:::{image} /_static/people/dan-arking.webp
-:width: 240px
-:alt: Dan Arking, Ph.D.
-:::
+{.people-card-external-link}
+[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
-::::
+{.people-card-external-link}
+[Department of Medicine, Division of Cardiology](https://www.hopkinsmedicine.org/heart-vascular-institute/cardiology)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
+{.people-card-external-link}
+[Johns Hopkins School of Medicine](https://www.hopkinsmedicine.org/som)
 
-**Professor**
-
-{{ dgm }}
-
-{{ cardio }}
-
-{{ som }}
-
+{.people-card-email}
 [arking@jhmi.edu](mailto:arking@jhmi.edu)
-
-::::
+:::
 ```
 
 (joel-bader)=
-## [Joel Bader, Ph.D.](https://www.baderzone.org)
+```{grid} 1 1 1 1
+:::{grid-item-card} Joel Bader, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/joel-bader.webp
+:img-alt: Joel Bader, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-external-link}
+[Bader Lab Website](https://www.baderzone.org)
 
-:::{image} /_static/people/joel-bader.webp
-:width: 240px
-:alt: Joel Bader, Ph.D.
-:::
+{.people-card-external-link}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Professor**
-
-{{ bme }}
-
+{.people-card-email}
 [joel.bader@jhu.edu](mailto:joel.bader@jhu.edu)
-
-::::
+:::
 ```
 
 (alexis-battle)=
-## [Alexis Battle, Ph.D.](https://battlelab.jhu.edu)
+```{grid} 1 1 1 1
+:::{grid-item-card} Alexis Battle, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/alexis-battle.webp
+:img-alt: Alexis Battle, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Wu & Zhang Professor<br>
+Director, Malone Center for Engineering in Healthcare<br>
+Deputy Executive Director, AI-X Foundry
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-external-link}
+[Battle Lab Website](https://battlelab.jhu.edu)
 
-:::{image} /_static/people/alexis-battle.webp
-:width: 240px
-:alt: Alexis Battle, Ph.D.
-:::
+{.people-card-external-link}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-::::
+{.people-card-external-link}
+[Department of Computer Science](https://www.cs.jhu.edu/)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
+{.people-card-external-link}
+[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
-**Wu & Zhang Professor**
-**Director, Malone Center for Engineering in Healthcare**
-**Deputy Executive Director, AI-X Foundry**
-
-{{ bme }}
-
-{{ cs }}
-
-{{ dgm }}
-
+{.people-card-email}
 [ajbattle@jhu.edu](mailto:ajbattle@jhu.edu)
-
-::::
+:::
 ```
 
 (michael-beer)=
-## [Michael Beer, Ph.D.](https://www.beerlab.org)
+```{grid} 1 1 1 1
+:::{grid-item-card} Michael Beer, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/michael-beer.webp
+:img-alt: Michael Beer, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-external-link}
+[Beer Lab Website](https://www.beerlab.org)
 
-:::{image} /_static/people/michael-beer.webp
-:width: 240px
-:alt: Michael Beer, Ph.D.
-:::
+{.people-card-external-link}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-::::
+{.people-card-external-link}
+[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
+{.people-card-external-link}
+[Johns Hopkins School of Medicine](https://www.hopkinsmedicine.org/som)
 
-**Professor**
-
-{{ bme }}
-
-{{ dgm }}
-
-{{ som }}
-
+{.people-card-email}
 [mbeer@jhu.edu](mailto:mbeer@jhu.edu)
-
-::::
+:::
 ```
 
 (uthsav-chitra)=
-## [Uthsav Chitra, Ph.D.](https://chitra-lab.github.io)
+```{grid} 1 1 1 1
+:::{grid-item-card} Uthsav Chitra, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/uthsav-chitra.webp
+:img-alt: Uthsav Chitra, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Assistant Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-external-link}
+[Chitra Lab Website](https://chitra-lab.github.io/)
 
-:::{image} /_static/people/uthsav-chitra.webp
-:width: 240px
-:alt: Uthsav Chitra, Ph.D.
-:::
+{.people-card-external-link}
+[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
-::::
+{.people-card-external-link}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Assistant Professor**
-
-{{ dgm }}
-
-{{ wse }}
-
+{.people-card-email}
 [uthsav@jhu.edu](mailto:uthsav@jhu.edu)
-
-::::
+:::
 ```
 
 (jean-fan)=
-## [Jean Fan, Ph.D.](https://jef.works)
+```{grid} 1 1 1 1
+:::{grid-item-card} Jean Fan, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/jean-fan.webp
+:img-alt: Jean Fan, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Associate Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-external-link}
+[Fan Lab Website](https://jef.works)
 
-:::{image} /_static/people/jean-fan.webp
-:width: 240px
-:alt: Jean Fan, Ph.D.
-:::
+{.people-card-external-link}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-::::
+{.people-card-external-link}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Associate Professor**
-
-{{ bme }}
-
-{{ wse }}
-
+{.people-card-email}
 [jeanfan@jhu.edu](mailto:jeanfan@jhu.edu)
-
-::::
+:::
 ```
 
 (liliana-florea)=
-## [Liliana Florea, Ph.D.](https://florealab.org)
+```{grid} 1 1 1 1
+:::{grid-item-card} Liliana Florea, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/liliana-florea.webp
+:img-alt: Liliana Florea, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Associate Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-external-link}
+[Florea Lab Website](https://florealab.org)
 
-:::{image} /_static/people/liliana-florea.webp
-:width: 240px
-:alt: Liliana Florea, Ph.D.
-:::
+{.people-card-external-link}
+[Department of Medicine](https://www.hopkinsmedicine.org/medicine)
 
-::::
+{.people-card-external-link}
+[Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
+{.people-card-external-link}
+[Johns Hopkins School of Medicine](https://www.hopkinsmedicine.org/som)
 
-**Associate Professor**
-
-{{ med }}
-
-{{ dgm }}
-
-{{ som }}
-
+{.people-card-email}
 [florea@jhu.edu](mailto:florea@jhu.edu)
-
-::::
+:::
 ```
 
 (jeffrey-j-gray)=
-## [Jeffrey J. Gray, Ph.D.](https://graylab.jhu.edu)
+```{grid} 1 1 1 1
+:::{grid-item-card} Jeffrey J. Gray, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/jeffrey-j-gray.webp
+:img-alt: Jeffrey J. Gray, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-external-link}
+[Gray Lab Website](https://graylab.jhu.edu)
 
-:::{image} /_static/people/jeffrey-j-gray.webp
-:width: 240px
-:alt: Jeffrey J. Gray, Ph.D.
-:::
+{.people-card-external-link}
+[Department of Chemical & Biomolecular Engineering](https://engineering.jhu.edu/chembe/)
 
-::::
+{.people-card-external-link}
+[Program in Molecular Biophysics](https://pmb.jhu.edu/)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Professor**
-
-{{ chembe }}
-
-
-Program in Molecular & Computational Biophysics
-
+{.people-card-email}
 [jgray@jhu.edu](mailto:jgray@jhu.edu)
-
-::::
+:::
 ```
 
 (kasper-d-hansen)=

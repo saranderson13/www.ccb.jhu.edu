@@ -588,12 +588,16 @@ div.indexpg-card-title {
 div.people-card {
     display: flex;
     flex-direction: row;
-    width: 90% !important;
+    width: 85% !important;
     font-family: var(--work-sans);
+    margin: auto;
 }
 
 .people-card img {
     width: 200px;
+    height: 200px;
+    min-width: 200px;
+    object-fit: cover;
 }
 
 .people-card-title {
@@ -620,7 +624,8 @@ div.people-card {
     display: flex;
     flex-direction: row;
     gap: 7px;
-    font-size: 0.8em
+    font-size: 0.8em;
+    font-weight: 500;
 }
 
 .people-card-external-link::before {
@@ -633,7 +638,7 @@ div.people-card {
 }
 
 .people-card-external-link a:hover {
-
+    color: var(--accent-medium-blue)
 }
 
 .people-card-email {
