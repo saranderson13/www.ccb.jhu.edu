@@ -1,6 +1,6 @@
 (fac-name-as-link)=
 ```{grid} 1 1 1 1
-:::{grid-item-card} [FACULTY NAME, DEGREES]
+:::{grid-item-card} FACULTY NAME, DEGREES
 :class-card: people-card
 :class-body: people-card-body
 :class-title: people-card-title
