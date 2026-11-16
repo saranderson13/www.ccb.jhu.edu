@@ -608,6 +608,7 @@ div.people-card {
 
 .people-card-body {
     padding: 1rem 2rem !important;
+    background: linear-gradient(to right, var(--white) 60%, var(--primary-heritage-50) 160%) !important;
 }
 
 .people-card-body>p {
@@ -616,11 +617,25 @@ div.people-card {
 }
 
 .people-card-position {
-    font-weight: 500;
-    padding-bottom: .3rem;
+    font-weight: 600;
+    font-size: 0.95em;
 }
 
-.people-card-external-link {
+.people-card-institution {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    font-weight: 500;
+}
+
+.people-card-institution::before {
+    content: "\f111";
+    font-size: .9em;
+    font-family: var(--fa-family-classic);
+    font-weight: 900;
+}
+
+.people-card-dept {
     display: flex;
     flex-direction: row;
     gap: 7px;
@@ -628,16 +643,21 @@ div.people-card {
     font-weight: 500;
 }
 
-.people-card-external-link::before {
-    content: "➤";
-    font-size: 1.15em;
+.people-card-dept::before {
+    content: "\f192";
+    font-size: 1.1em;
+    font-family: var(--fa-family-classic);
 }
 
-.people-card-external-link a, .people-card-external-link a:link, .people-card-external-link a:active, .people-card-external-link a:visited {
+.last-institution {
+    padding-bottom: 0.5em;
+}
+
+.people-card-dept a, .people-card-dept a:link, .people-card-dept a:active, .people-card-dept a:visited {
 
 }
 
-.people-card-external-link a:hover {
+.people-card-dept a:hover {
     color: var(--accent-medium-blue)
 }
 
@@ -651,8 +671,10 @@ div.people-card {
 }
 
 .people-card-email::before {
-    content: "✉️";
-    font-size: 1.2em;
+    content: "\f0e0";
+    font-family: var(--fa-family-classic);
+    font-size: 1em;
+    padding-top: 0.2em;
 }
 
 

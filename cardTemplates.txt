@@ -10,10 +10,16 @@
 {.people-card-position}
 ALL POSITIONS, SEPARATED BY <BR>
 
-{.people-card-external-link}
+{.people-card-institution}
 [LINKtext](LINKurl)
 
-{.people-card-external-link}
+{.people-card-institution .last-institution}
+[LINKtext](LINKurl)
+
+{.people-card-dept}
+[LINKtext](LINKurl)
+
+{.people-card-dept}
 [LINKtext](LINKurl)
 
 {.people-card-email}

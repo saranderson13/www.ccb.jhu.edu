@@ -17,17 +17,25 @@ html_theme.sidebar_secondary.remove: true
 
 {.people-card-position}
 Director, Center for Computational Biology<br>
-[Bloomberg School of Public Health](https://publichealth.jhu.edu/)<br>
+Bloomberg Distinguished Professor<br>
+
+{.people-card-institution}
+[Bloomberg School of Public Health](https://publichealth.jhu.edu/)
+
+{.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Salzberg Lab Website](https://www.salzberg-lab.org)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Computer Science](https://www.cs.jhu.edu/)
+
+{.people-card-dept}
+[Institute for Computational Medicine](https://icm.jhu.edu/)
 
 {.people-card-email}
 [salzberg@jhu.edu](mailto:salzberg@jhu.edu)
@@ -44,18 +52,22 @@ Director, Center for Computational Biology<br>
 :img-alt: Mihaela Pertea, Ph.D.
 
 {.people-card-position}
-Assocate Professor<br>
 Associate Director, Center for Computational Biology<br>
+Assocate Professor<br>
+
+{.people-card-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+
+{.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Pertea Lab Website](http://pertealab.org)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
 {.people-card-email}
@@ -74,15 +86,17 @@ Associate Director, Center for Computational Biology<br>
 
 {.people-card-position}
 Professor<br>
+
+{.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Arking Lab Github ******](https://github.com/TMAGOC/edge-pro/wiki)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Medicine, Division of Cardiology](https://www.hopkinsmedicine.org/heart-vascular-institute/cardiology)
 
 {.people-card-email}
@@ -101,15 +115,17 @@ Professor<br>
 
 {.people-card-position}
 Professor<br>
+
+{.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Bader Lab Website](https://www.baderzone.org)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Institute for Computational Medicine](https://icm.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
 {.people-card-email}
@@ -130,18 +146,20 @@ Professor<br>
 Wu & Zhang Professor<br>
 Director, [Malone Center for Engineering in Healthcare](https://malonecenter.jhu.edu/)<br>
 Deputy Executive Director, AI-X Foundry<br>
+
+{.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Battle Lab Website](https://battlelab.jhu.edu)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Computer Science](https://www.cs.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
 {.people-card-email}
@@ -160,16 +178,20 @@ Deputy Executive Director, AI-X Foundry<br>
 
 {.people-card-position}
 Professor<br>
+
+{.people-card-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+
+{.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Beer Lab Website](https://www.beerlab.org)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
 {.people-card-email}
@@ -188,13 +210,17 @@ Professor<br>
 
 {.people-card-position}
 Assistant Professor<br>
+
+{.people-card-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+
+{.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Chitra Lab Website](https://chitra-lab.github.io/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
 {.people-card-email}
@@ -213,12 +239,14 @@ Assistant Professor<br>
 
 {.people-card-position}
 Associate Professor<br>
+
+{.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Fan Lab Website](https://jef.works)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
 {.people-card-email}
@@ -237,15 +265,17 @@ Associate Professor<br>
 
 {.people-card-position}
 Associate Professor<br>
+
+{.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Florea Lab Website](https://florealab.org)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Medicine](https://www.hopkinsmedicine.org/medicine)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
 {.people-card-email}
@@ -264,15 +294,17 @@ Associate Professor<br>
 
 {.people-card-position}
 Professor<br>
+
+{.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Gray Lab Website](https://graylab.jhu.edu)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Chemical & Biomolecular Engineering](https://engineering.jhu.edu/chembe/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Program in Molecular Biophysics](https://pmb.jhu.edu/)
 
 {.people-card-email}
@@ -291,13 +323,17 @@ Professor<br>
 
 {.people-card-position}
 Professor<br>
+
+{.people-card-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+
+{.people-card-institution .last-institution}
 [Bloomberg School of Public Health](https://publichealth.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Hansen Lab Website](https://www.hansenlab.org/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
 {.people-card-email}
@@ -316,19 +352,23 @@ Professor<br>
 
 {.people-card-position}
 Associate Professor<br>
+
+{.people-card-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+
+{.people-card-institution .last-institution}
 [Bloomberg School of Public Health](https://publichealth.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Hicks Lab Website](https://www.stephaniehicks.com)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Malone Center for Engineering in Healthcare](https://malonecenter.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Center for Imaging Science](https://www.cis.jhu.edu/)
 
 {.people-card-email}
@@ -347,12 +387,14 @@ Associate Professor<br>
 
 {.people-card-position}
 Professor<br>
+
+{.people-card-institution .last-institution}
 [Bloomberg School of Public Health](https://publichealth.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Ji Lab Website](https://jilab.org)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)
 
 {.people-card-email}
@@ -372,19 +414,23 @@ Professor<br>
 {.people-card-position}
 Professor<br>
 The William R. Brody Faculty Scholar<br>
+
+{.people-card-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+
+{.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Karchin Lab Website](https://www.karchinlab.org)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Institute for Computational Medicine](https://icm.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
 {.people-card-email}
@@ -403,12 +449,14 @@ The William R. Brody Faculty Scholar<br>
 
 {.people-card-position}
 Professor<br>
+
+{.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Langmead Lab Website](https://langmead-lab.org)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Computer Science](https://www.cs.jhu.edu/)
 
 {.people-card-email}
@@ -427,11 +475,14 @@ Professor<br>
 
 {.people-card-position}
 Adjunct Research Scientist<br>
-[Whiting School of Engineering](https://engineering.jhu.edu/)<br><br>
+
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
+
 2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA<br>
 1989-2017: Director, National Center for Biotechnology Information, NIH
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
 {.people-card-email}
@@ -450,12 +501,14 @@ Adjunct Research Scientist<br>
 
 {.people-card-position}
 Assistant Professor<br>
+
+{.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [McCoy Lab Website](https://mccoy-lab.org)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
 {.people-card-email}
@@ -474,19 +527,23 @@ Assistant Professor<br>
 
 {.people-card-position}
 Bloomberg Distinguished Professor<br>
+
+{.people-card-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+
+{.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Genome Informatics Section](https://genomeinformatics.github.io)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Computer Science](https://www.cs.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Genetic Medicine](https://www.hopkinsmedicine.org/genetic-medicine/)
 
 {.people-card-email}
@@ -506,22 +563,26 @@ Bloomberg Distinguished Professor<br>
 {.people-card-position}
 John C. Malone Associate Professor of Computer Science<br>
 Research Director, [Malone Center for Healthcare in Engineering](https://malonecenter.jhu.edu/)<br>
+
+{.people-card-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+
+{.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
 
-<!-- {.people-card-external-link}
+<!-- {.people-card-dept}
 [Profile](https://suchisaria.jhu.edu/) -->
 
-{.people-card-external-link}
+{.people-card-dept}
 [Institute for Computational Medicine](https://icm.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Computer Science](https://www.cs.jhu.edu/)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Health Policy & Management](https://publichealth.jhu.edu/departments/health-policy-and-management)
 
-{.people-card-external-link}
+{.people-card-dept}
 [Department of Applied Mathematics & Statistics](https://engineering.jhu.edu/ams/)
 
 {.people-card-email}
@@ -529,213 +590,155 @@ Research Director, [Malone Center for Healthcare in Engineering](https://malonec
 :::
 ```
 
-## [Suchi Saria, Ph.D.](https://engineering.jhu.edu/faculty/suchi-saria/)
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/suchi-saria.webp
-:width: 240px
-:alt: Suchi Saria, Ph.D.
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Associate Professor**
-
-
-Machine Learning, Biomedical & Health Informatics
-
-{{ cs }}
-
-
-Department of Health Policy & Management
-
-{{ icm }}
-
-[ssaria@cs.jhu.edu](mailto:ssaria@cs.jhu.edu)
-
-::::
-```
-
 (robert-scharpf)=
-## [Robert Scharpf, Ph.D.](https://rscharpf.github.io/index.html)
+```{grid} 1 1 1 1
+:::{grid-item-card} Robert Scharpf, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/robert-scharpf.webp
+:img-alt: Robert Scharpf, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Associate Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-institution .last-institution}
+[School of Medicine](https://www.hopkinsmedicine.org/som)
 
-:::{image} /_static/people/robert-scharpf.webp
-:width: 240px
-:alt: Robert Scharpf, Ph.D.
-:::
+{.people-card-dept}
+[Scharpf Lab Website](https://rscharpf.github.io/index.html)
 
-::::
+{.people-card-dept}
+[Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Associate Professor**
-
-{{ skcc }}
-
-{{ som }}
-
+{.people-card-email}
 [rscharpf@jhsph.edu](mailto:rscharpf@jhsph.edu)
-
-::::
+:::
 ```
 
 (michael-schatz)=
-## [Michael Schatz, Ph.D.](https://schatz-lab.org)
+```{grid} 1 1 1 1
+:::{grid-item-card} Michael Schatz, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/michael-schatz.webp
+:img-alt: Michael Schatz, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Bloomberg Distinguished Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
-:::{image} /_static/people/michael-schatz.webp
-:width: 240px
-:alt: Michael Schatz, Ph.D.
-:::
+{.people-card-dept}
+[Schatz Lab Website](https://schatz-lab.org)
 
-::::
+{.people-card-dept}
+[Department of Computer Science](https://www.cs.jhu.edu/)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Bloomberg Distinguished Professor**
-
-{{ cs }}
-
+{.people-card-email}
 [mschatz@cs.jhu.edu](mailto:mschatz@cs.jhu.edu)
-
-::::
+:::
 ```
 
 (margaret-taub)=
-## [Margaret Taub, Ph.D.](https://www.biostat.jhsph.edu/~mtaub/About.html)
+```{grid} 1 1 1 1
+:::{grid-item-card} Margaret Taub, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/margaret-taub.webp
+:img-alt: Margaret Taub, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Assistant Scientist
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-institution .last-institution}
+[Bloomberg School of Public Health](https://publichealth.jhu.edu/)
 
-:::{image} /_static/people/margaret-taub.webp
-:width: 240px
-:alt: Margaret Taub, Ph.D.
-:::
+{.people-card-dept}
+[Profile](https://www.biostat.jhsph.edu/~mtaub/About.html)
 
-::::
+{.people-card-dept}
+[Department of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Associate Scientist**
-
-{{ bsph }}
-
-{{ sph }}
-
+{.people-card-email}
 [mtaub@jhsph.edu](mailto:mtaub@jhsph.edu)
-
-::::
+:::
 ```
 
 (james-taylor)=
-## James Taylor, Ph.D.
+```{grid} 1 1 1 1
+:::{grid-item-card} James Taylor, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/james-taylor.webp
+:img-alt: James Taylor, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+In memoriam: Professor of Biology
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-institution .last-institution}
+[Krieger School of Arts & Sciences](https://krieger.jhu.edu/)
 
-:::{image} /_static/people/james-taylor.webp
-:width: 240px
-:alt: James Taylor, Ph.D.
+{.people-card-dept}
+[Department of Biology](https://bio.jhu.edu)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**In memoriam: Professor of Biology**
-
-{{ bio }}
-
-{{ ksas }}
-
-::::
 ```
+
+
 
 (winston-timp)=
-## [Winston Timp, Ph.D.](https://www.timplab.org)
+```{grid} 1 1 1 1
+:::{grid-item-card} Winston Timp, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/winston-timp.webp
+:img-alt: Winston Timp, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Associate Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
-:::{image} /_static/people/winston-timp.webp
-:width: 240px
-:alt: Winston Timp, Ph.D.
-:::
+{.people-card-dept}
+[Timp Lab Website](https://www.timplab.org)
 
-::::
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
+{.people-card-dept}
+[Department of Molecular Biology & Genetics](https://mbg.jhmi.edu/)
 
-**Associate Professor**
-
-{{ bme }}
-
-{{ wse }}
-
+{.people-card-email}
 [wtimp@jhu.edu](mailto:wtimp@jhu.edu)
-
-::::
+:::
 ```
 
+
 (aleksey-zimin)=
-## [Aleksey Zimin, Ph.D.](/people/alekseyz/index)
+```{grid} 1 1 1 1
+:::{grid-item-card} Aleksey Zimin, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/aleksey-zimin.webp
+:img-alt: Aleksey Zimin, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Research Scientist
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
-:::{image} /_static/people/aleksey-zimin.webp
-:width: 240px
-:alt: Aleksey Zimin, Ph.D.
-:::
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Research Scientist**
-
-{{ bme }}
-
-{{ wse }}
-
+{.people-card-email}
 [alekseyz@jhu.edu](mailto:alekseyz@jhu.edu)
-
-::::
+:::
 ```
