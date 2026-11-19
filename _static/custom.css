@@ -38,10 +38,12 @@ html[data-mode="dark"] {
     /* DARK MODE COLORS */
     --accent-mint: rgba(134, 200, 188, 0.5);
     --accent-gold: #ae8e00;
+    --white: #14181e;
     /* --accent-medium-blue: #005091; */
 
     /* TO CHANGE HERITAGE LOGO IN HEADER MUST BE TRANSPARENT */
     /* --primary-heritage: rgb(0, 32, 80); */
+
 }
 
 /* ATOMIC FONT CLASSES */
@@ -188,6 +190,12 @@ ul.navbar-nav li:not(:last-child)::after {
     color: var(--white);
     border-bottom: 5px solid var(--primary-heritage);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+html[data-mode="dark"] {
+    #welcome {
+        color: #ffffff;
+    }
 }
 
 .welcome-outer-border {
@@ -342,11 +350,6 @@ footer {
     padding-left: 10px;
 }
 
-html[data-mode="dark"] .statement-title {
-    color: var(--dark-gray);
-    background: linear-gradient(to right, var(--white-30) 0%, transparent 60%);
-}
-
 .statement-article {
     display: flex;
     gap: 40px;
@@ -367,23 +370,31 @@ html[data-mode="dark"] .statement-title {
     padding-top: 20px;
 }
 
-@media (max-width: 1000px) {
-    .statement-article {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
+
+/* INDEX PAGE MEDIA RESPONSIVE MODIFICATIONS */
+    @media (max-width: 1000px) {
+        .statement-article {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .statement-article div.statement {
+            width: 100%;
+            padding: 20px 0px 0px;
+        }
+
+        .statement-article div.statement-image {
+            width: auto;
+            padding: 0px;
+        }
     }
 
-    .statement-article div.statement {
-        width: 100%;
-        padding: 20px 0px 0px;
+/* INDEX PAGE DARK MODE MODIFICATIONS */
+    html[data-mode="dark"] .statement-title {
+        color: var(--dark-gray);
+        background: linear-gradient(to right, var(--white-30) 0%, transparent 60%);
     }
-
-    .statement-article div.statement-image {
-        width: auto;
-        padding: 0px;
-    }
-}
 
 /* ---------- */
 
@@ -521,6 +532,9 @@ p:has(a[href$=".py"]) {
     border: 5px solid var(--accent-gold) !important;
 }
 
+html[data-mode="dark"] .indexpg-card {
+    background: linear-gradient(to bottom, var(--white) 60%, var(--primary-heritage-80) 160%) !important;}
+
 @media (max-width: 767px) {
     .indexpg-card {
         flex-direction: row;
@@ -529,6 +543,12 @@ p:has(a[href$=".py"]) {
     .indexpg-card img {
         background-color: var(--primary-heritage);
         width: 200px;
+    }
+
+    html[data-mode="dark"] {
+        .indexpg-card img {
+            background-color: transparent !important;
+        }
     }
 }
 
@@ -540,10 +560,7 @@ p:has(a[href$=".py"]) {
 
 .indexpg-card-body {
     background-color: var(--white) !important;
-}
-
-html[data-mode="dark"] .indexpg-card-body {
-    background-color: var(--dark-gray) !important;
+    background: linear-gradient(to bottom, var(--white) 60%, var(--primary-heritage-80) 160%) !important;
 }
 
 .indexpg-card-body a, .indexpg-card-body a:link, .indexpg-card-body a:active, .indexpg-card-body a:visited {
@@ -598,6 +615,7 @@ div.people-card {
     height: 250px;
     min-width: 200px;
     object-fit: cover;
+    border-radius: 0.25rem;
 }
 
 .people-card-title {
@@ -617,36 +635,50 @@ div.people-card {
 }
 
 .people-card-position {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
     font-weight: 600;
     font-size: 0.95em;
+}
+
+.people-card-position a {
+    position: inline;
+}
+
+.people-card-position::before {
+    content: "\f111";
+    font-size: .7em;
+    font-family: var(--fa-family-classic);
+    font-weight: 900
 }
 
 .people-card-institution {
     display: flex;
     flex-direction: row;
-    gap: 7px;
+    gap: 10px;
     font-weight: 500;
 }
 
 .people-card-institution::before {
-    content: "\f111";
-    font-size: .9em;
+    content: "\f192";
+    font-size: .8em;
     font-family: var(--fa-family-classic);
-    font-weight: 900;
 }
 
 .people-card-dept {
     display: flex;
     flex-direction: row;
-    gap: 7px;
+    gap: 10px;
     font-size: 0.8em;
     font-weight: 500;
 }
 
 .people-card-dept::before {
-    content: "\f192";
-    font-size: 1.1em;
+    content: "\f111";
+    font-size: .9em;
     font-family: var(--fa-family-classic);
+    font-weight: 500;
 }
 
 .last-institution {
@@ -677,6 +709,75 @@ div.people-card {
     padding-top: 0.2em;
 }
 
+
+/* PEOPLE PAGE MEDIA RESPONSIVE MODIFICATIONS */
+    @media (960px <=width <=992px) {
+        div.people-card {
+            flex-direction: column;
+            width: 60% !important;
+        }
+
+        .people-card-body {
+            background: linear-gradient(to bottom, var(--white) 60%, var(--primary-heritage-50) 160%) !important;
+        }
+
+        /* DARK MODE */
+        html[data-mode="dark"] {
+            .people-card-body {
+                background: linear-gradient(to bottom, var(--white) 60%, var(--primary-heritage) 160%) !important;
+            }
+        }
+
+        .people-card img {
+            width: auto !important;
+            height: auto !important;
+            aspect-ratio: 1 / 1;
+        }
+
+        .people-card-position {
+            padding-bottom: .2em;
+        }
+    }
+
+    @media (0px <= width <= 630px) {
+        div.people-card {
+            flex-direction: column;
+            width: 60% !important;
+        }
+
+        .people-card-body {
+            background: linear-gradient(to bottom, var(--white) 60%, var(--primary-heritage-50) 160%) !important;
+        }
+
+        /* DARK MODE */
+        html[data-mode="dark"] {
+            .people-card-body {
+                background: linear-gradient(to bottom, var(--white) 60%, var(--primary-heritage) 160%) !important;
+            }
+        }
+
+        .people-card img {
+            width: auto !important;
+            height: auto !important;
+            aspect-ratio: 1 / 1;
+        }
+
+        .people-card-position {
+            padding-bottom: .2em;
+        }
+
+        .people-card-institution,
+        .people-card-dept {
+            line-height: 1.3em !important;
+        }
+    }
+
+    /* PEOPLE CARD DARK MODE MODIFICATION (EXCLUDING MEDIA RESPONSIVE) */
+    html[data-mode="dark"] {
+        .people-card-body {
+            background: linear-gradient(to bottom, var(--white) 60%, var(--primary-heritage) 160%) !important;
+        }
+    }
 
 
 /*======================================================================

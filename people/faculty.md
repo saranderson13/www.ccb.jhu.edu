@@ -16,8 +16,10 @@ html_theme.sidebar_secondary.remove: true
 :img-alt: Steven L. Salzberg, Ph.D.
 
 {.people-card-position}
-Director, Center for Computational Biology<br>
-Bloomberg Distinguished Professor<br>
+Director, Center for Computational Biology
+
+{.people-card-position}
+Bloomberg Distinguished Professor
 
 {.people-card-institution}
 [Bloomberg School of Public Health](https://publichealth.jhu.edu/)
@@ -52,11 +54,13 @@ Bloomberg Distinguished Professor<br>
 :img-alt: Mihaela Pertea, Ph.D.
 
 {.people-card-position}
-Associate Director, Center for Computational Biology<br>
-Assocate Professor<br>
+Associate Director, Center for Computational Biology
+
+{.people-card-position}
+Assocate Professor
 
 {.people-card-institution}
-[Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
 {.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
@@ -85,7 +89,7 @@ Assocate Professor<br>
 :img-alt: Dan Arking, Ph.D.
 
 {.people-card-position}
-Professor<br>
+Professor
 
 {.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
@@ -114,7 +118,7 @@ Professor<br>
 :img-alt: Joel Bader, Ph.D.
 
 {.people-card-position}
-Professor<br>
+Professor
 
 {.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
@@ -143,9 +147,13 @@ Professor<br>
 :img-alt: Alexis Battle, Ph.D.
 
 {.people-card-position}
-Wu & Zhang Professor<br>
-Director, [Malone Center for Engineering in Healthcare](https://malonecenter.jhu.edu/)<br>
-Deputy Executive Director, AI-X Foundry<br>
+Wu & Zhang Professor
+
+{.people-card-position}
+Director, [Malone Center for Engineering in Healthcare](https://malonecenter.jhu.edu/)
+
+{.people-card-position}
+Deputy Executive Director, AI-X Foundry
 
 {.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
@@ -177,10 +185,10 @@ Deputy Executive Director, AI-X Foundry<br>
 :img-alt: Michael Beer, Ph.D.
 
 {.people-card-position}
-Professor<br>
+Professor
 
 {.people-card-institution}
-[Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
 {.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
@@ -209,10 +217,10 @@ Professor<br>
 :img-alt: Uthsav Chitra, Ph.D.
 
 {.people-card-position}
-Assistant Professor<br>
+Assistant Professor
 
 {.people-card-institution}
-[Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
 {.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
@@ -238,7 +246,7 @@ Assistant Professor<br>
 :img-alt: Jean Fan, Ph.D.
 
 {.people-card-position}
-Associate Professor<br>
+Associate Professor
 
 {.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
@@ -264,7 +272,7 @@ Associate Professor<br>
 :img-alt: Liliana Florea, Ph.D.
 
 {.people-card-position}
-Associate Professor<br>
+Associate Professor
 
 {.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
@@ -293,7 +301,7 @@ Associate Professor<br>
 :img-alt: Jeffrey J. Gray, Ph.D.
 
 {.people-card-position}
-Professor<br>
+Professor
 
 {.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
@@ -322,10 +330,10 @@ Professor<br>
 :img-alt: Kasper D. Hansen, Ph.D.
 
 {.people-card-position}
-Professor<br>
+Professor
 
 {.people-card-institution}
-[Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
 {.people-card-institution .last-institution}
 [Bloomberg School of Public Health](https://publichealth.jhu.edu/)
@@ -351,10 +359,10 @@ Professor<br>
 :img-alt: Stephanie Hicks, Ph.D.
 
 {.people-card-position}
-Associate Professor<br>
+Associate Professor
 
 {.people-card-institution}
-[Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
 {.people-card-institution .last-institution}
 [Bloomberg School of Public Health](https://publichealth.jhu.edu/)
@@ -386,7 +394,7 @@ Associate Professor<br>
 :img-alt: Hongkai Ji, Ph.D.
 
 {.people-card-position}
-Professor<br>
+Professor
 
 {.people-card-institution .last-institution}
 [Bloomberg School of Public Health](https://publichealth.jhu.edu/)
@@ -412,11 +420,13 @@ Professor<br>
 :img-alt: Rachel Karchin, Ph.D.
 
 {.people-card-position}
-Professor<br>
-The William R. Brody Faculty Scholar<br>
+Professor
+
+{.people-card-position}
+The William R. Brody Faculty Scholar
 
 {.people-card-institution}
-[Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
 {.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
@@ -448,7 +458,7 @@ The William R. Brody Faculty Scholar<br>
 :img-alt: Ben Langmead, Ph.D.
 
 {.people-card-position}
-Professor<br>
+Professor
 
 {.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
@@ -474,12 +484,12 @@ Professor<br>
 :img-alt: David J. Lipman, M.D.
 
 {.people-card-position}
-Adjunct Research Scientist<br>
+Adjunct Research Scientisr
 
 {.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
 
-2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDA<br>
+2021-2025: Senior Science Advisor for Bioinformatics and Genomics, FDr
 1989-2017: Director, National Center for Biotechnology Information, NIH
 
 {.people-card-dept}
@@ -500,7 +510,7 @@ Adjunct Research Scientist<br>
 :img-alt: Rajiv McCoy, Ph.D.
 
 {.people-card-position}
-Assistant Professor<br>
+Assistant Professor
 
 {.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
@@ -526,10 +536,10 @@ Assistant Professor<br>
 :img-alt: Adam Phillippy, Ph.D.
 
 {.people-card-position}
-Bloomberg Distinguished Professor<br>
+Bloomberg Distinguished Professor
 
 {.people-card-institution}
-[Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+[Whiting School of Engineering](https://engineering.jhu.edu/r
 
 {.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
@@ -561,11 +571,13 @@ Bloomberg Distinguished Professor<br>
 :img-alt: Suchi Saria, Ph.D.
 
 {.people-card-position}
-John C. Malone Associate Professor of Computer Science<br>
-Research Director, [Malone Center for Healthcare in Engineering](https://malonecenter.jhu.edu/)<br>
+John C. Malone Associate Professor of Computer Science
+
+{.people-card-position}
+Research Director, [Malone Center for Healthcare in Engineering](https://malonecenter.jhu.edu/)
 
 {.people-card-institution}
-[Whiting School of Engineering](https://engineering.jhu.edu/)<br>
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
 {.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)

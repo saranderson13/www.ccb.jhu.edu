@@ -8,7 +8,10 @@
 :img-alt: FACULTY NAME, DEGREES
 
 {.people-card-position}
-ALL POSITIONS, SEPARATED BY <BR>
+POSITION
+
+{.people-card-position}
+POSITION
 
 {.people-card-institution}
 [LINKtext](LINKurl)
