@@ -18,7 +18,7 @@ html_theme.sidebar_secondary.remove: true
 {.people-card-position}
 Director, Center for Computational Biology
 
-{.people-card-position}
+{.people-card-position .last-position}
 Bloomberg Distinguished Professor
 
 {.people-card-institution}
@@ -56,7 +56,7 @@ Bloomberg Distinguished Professor
 {.people-card-position}
 Associate Director, Center for Computational Biology
 
-{.people-card-position}
+{.people-card-position .last-position}
 Assocate Professor
 
 {.people-card-institution}
@@ -88,7 +88,7 @@ Assocate Professor
 :img-top: /_static/people/dan-arking.webp
 :img-alt: Dan Arking, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Professor
 
 {.people-card-institution .last-institution}
@@ -117,7 +117,7 @@ Professor
 :img-top: /_static/people/joel-bader.webp
 :img-alt: Joel Bader, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Professor
 
 {.people-card-institution .last-institution}
@@ -150,9 +150,9 @@ Professor
 Wu & Zhang Professor
 
 {.people-card-position}
-Director, [Malone Center for Engineering in Healthcare](https://malonecenter.jhu.edu/)
+<span>Director, [Malone Center for Engineering in Healthcare](https://malonecenter.jhu.edu/)</span>
 
-{.people-card-position}
+{.people-card-position .last-position}
 Deputy Executive Director, AI-X Foundry
 
 {.people-card-institution .last-institution}
@@ -184,7 +184,7 @@ Deputy Executive Director, AI-X Foundry
 :img-top: /_static/people/michael-beer.webp
 :img-alt: Michael Beer, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Professor
 
 {.people-card-institution}
@@ -216,7 +216,7 @@ Professor
 :img-top: /_static/people/uthsav-chitra.webp
 :img-alt: Uthsav Chitra, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Assistant Professor
 
 {.people-card-institution}
@@ -245,7 +245,7 @@ Assistant Professor
 :img-top: /_static/people/jean-fan.webp
 :img-alt: Jean Fan, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Associate Professor
 
 {.people-card-institution .last-institution}
@@ -271,7 +271,7 @@ Associate Professor
 :img-top: /_static/people/liliana-florea.webp
 :img-alt: Liliana Florea, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Associate Professor
 
 {.people-card-institution .last-institution}
@@ -300,7 +300,7 @@ Associate Professor
 :img-top: /_static/people/jeffrey-j-gray.webp
 :img-alt: Jeffrey J. Gray, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Professor
 
 {.people-card-institution .last-institution}
@@ -329,7 +329,7 @@ Professor
 :img-top: /_static/people/kasper-d-hansen.webp
 :img-alt: Kasper D. Hansen, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Professor
 
 {.people-card-institution}
@@ -358,7 +358,7 @@ Professor
 :img-top: /_static/people/stephanie-hicks.webp
 :img-alt: Stephanie Hicks, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Associate Professor
 
 {.people-card-institution}
@@ -393,7 +393,7 @@ Associate Professor
 :img-top: /_static/people/hongkai-ji.webp
 :img-alt: Hongkai Ji, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Professor
 
 {.people-card-institution .last-institution}
@@ -422,7 +422,7 @@ Professor
 {.people-card-position}
 Professor
 
-{.people-card-position}
+{.people-card-position .last-position}
 The William R. Brody Faculty Scholar
 
 {.people-card-institution}
@@ -457,7 +457,7 @@ The William R. Brody Faculty Scholar
 :img-top: /_static/people/ben-langmead.webp
 :img-alt: Ben Langmead, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Professor
 
 {.people-card-institution .last-institution}
@@ -483,8 +483,8 @@ Professor
 :img-top: /_static/people/david-j-lipman.webp
 :img-alt: David J. Lipman, M.D.
 
-{.people-card-position}
-Adjunct Research Scientisr
+{.people-card-position .last-position}
+Adjunct Research Scientist
 
 {.people-card-institution .last-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)
@@ -509,7 +509,7 @@ Adjunct Research Scientisr
 :img-top: /_static/people/rajiv-mccoy.webp
 :img-alt: Rajiv McCoy, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Assistant Professor
 
 {.people-card-institution .last-institution}
@@ -535,7 +535,7 @@ Assistant Professor
 :img-top: /_static/people/adam-phillippy.webp
 :img-alt: Adam Phillippy, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Bloomberg Distinguished Professor
 
 {.people-card-institution}
@@ -573,7 +573,7 @@ Bloomberg Distinguished Professor
 {.people-card-position}
 John C. Malone Associate Professor of Computer Science
 
-{.people-card-position}
+{.people-card-position .last-position}
 <span>Research Director, [Malone Center for Healthcare in Engineering](https://malonecenter.jhu.edu/)</span>
 
 {.people-card-institution}
@@ -611,7 +611,7 @@ John C. Malone Associate Professor of Computer Science
 :img-top: /_static/people/robert-scharpf.webp
 :img-alt: Robert Scharpf, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Associate Professor
 
 {.people-card-institution .last-institution}
@@ -637,7 +637,7 @@ Associate Professor
 :img-top: /_static/people/michael-schatz.webp
 :img-alt: Michael Schatz, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Bloomberg Distinguished Professor
 
 {.people-card-institution .last-institution}
@@ -663,7 +663,7 @@ Bloomberg Distinguished Professor
 :img-top: /_static/people/margaret-taub.webp
 :img-alt: Margaret Taub, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Assistant Scientist
 
 {.people-card-institution .last-institution}
@@ -689,7 +689,7 @@ Assistant Scientist
 :img-top: /_static/people/james-taylor.webp
 :img-alt: James Taylor, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 In memoriam: Professor of Biology
 
 {.people-card-institution .last-institution}
@@ -711,7 +711,7 @@ In memoriam: Professor of Biology
 :img-top: /_static/people/winston-timp.webp
 :img-alt: Winston Timp, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Associate Professor
 
 {.people-card-institution .last-institution}
@@ -741,7 +741,7 @@ Associate Professor
 :img-top: /_static/people/aleksey-zimin.webp
 :img-alt: Aleksey Zimin, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 Research Scientist
 
 {.people-card-institution .last-institution}

@@ -46,11 +46,33 @@ html[data-mode="dark"] {
     /* TO CHANGE HERITAGE LOGO IN HEADER MUST BE TRANSPARENT */
     /* --primary-heritage: rgb(0, 32, 80); */
 
+    /* .bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-icon {
+        color: var(--primary-spirit)
+    } */
+
 }
 
-a:hover, a:visited:hover {
-    color: var(--accent-gold-accessible)
-}
+/* BANISHING PURPLE */
+    a:hover, a:visited:hover, a.headerlink, nav.bd-links li > a:hover, .bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-collapse-sidebar-label, ul.bd-breadcrumbs li.breadcrumb-item a:hover {
+        color: var(--accent-gold-accessible)
+    }
+
+    .bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-icon {
+        color: var(--primary-heritage)
+    }
+
+    html[data-mode="dark"] .bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-icon {
+        color: var(--primary-spirit)
+    }
+
+    #pst-back-to-top, #pst-back-to-top:hover {
+        background-color: var(--primary-heritage);
+        color: var(--permawhite)
+    }
+
+    #pst-back-to-top:hover {
+        color: var(--primary-spirit)
+    }
 
 /* ATOMIC FONT CLASSES */
 .title {
@@ -640,11 +662,17 @@ div.people-card {
 }
 
 .people-card-body {
-    padding: 1rem 2rem !important;
+    padding: 0.5rem 2rem !important;
     background: linear-gradient(to right, var(--white) 60%, var(--primary-heritage-50) 160%) !important;
 }
 
-.people-card-body>p {
+html[data-mode="dark"] {
+    .people-card-body {
+        background: linear-gradient(to right, var(--white) 60%, var(--primary-heritage) 160%) !important;
+    }
+}
+
+.people-card-body>p{
     margin-bottom: 5px;
     line-height: 1em;
 }
@@ -655,10 +683,6 @@ div.people-card {
     gap: 10px;
     font-weight: 600;
     font-size: 0.95em;
-}
-
-.people-card-position a {
-    position: inline;
 }
 
 .people-card-position::before {
@@ -696,17 +720,9 @@ div.people-card {
     font-weight: 500;
 }
 
-.last-institution {
+.last-institution, .last-position {
     padding-bottom: 0.5em;
 }
-
-.people-card-dept a, .people-card-dept a:link, .people-card-dept a:active, .people-card-dept a:visited {
-
-}
-
-/* .people-card-dept a:hover {
-    color: var(--accent-medium-blue)
-} */
 
 .people-card-email {
     font-family: var(--oswald);
@@ -726,34 +742,6 @@ div.people-card {
 
 
 /* PEOPLE PAGE MEDIA RESPONSIVE MODIFICATIONS */
-    @media (960px <=width <=992px) {
-        div.people-card {
-            flex-direction: column;
-            width: 60% !important;
-        }
-
-        .people-card-body {
-            background: linear-gradient(to bottom, var(--white) 60%, var(--primary-heritage-50) 160%) !important;
-        }
-
-        /* DARK MODE */
-        html[data-mode="dark"] {
-            .people-card-body {
-                background: linear-gradient(to bottom, var(--white) 60%, var(--primary-heritage) 160%) !important;
-            }
-        }
-
-        .people-card img {
-            width: auto !important;
-            height: auto !important;
-            aspect-ratio: 1 / 1;
-        }
-
-        .people-card-position, .people-card-position span {
-            padding-bottom: .2em;
-        }
-    }
-
     @media (0px <= width <= 630px) {
         div.people-card {
             flex-direction: column;
@@ -762,6 +750,7 @@ div.people-card {
 
         .people-card-body {
             background: linear-gradient(to bottom, var(--white) 60%, var(--primary-heritage-50) 160%) !important;
+            padding-bottom: 2em !important;
         }
 
         /* DARK MODE */
@@ -784,13 +773,6 @@ div.people-card {
         .people-card-institution,
         .people-card-dept {
             line-height: 1.3em !important;
-        }
-    }
-
-    /* PEOPLE CARD DARK MODE MODIFICATION (EXCLUDING MEDIA RESPONSIVE) */
-    html[data-mode="dark"] {
-        .people-card-body {
-            background: linear-gradient(to bottom, var(--white) 60%, var(--primary-heritage) 160%) !important;
         }
     }
 
