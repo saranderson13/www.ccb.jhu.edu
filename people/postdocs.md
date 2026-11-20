@@ -1,99 +1,54 @@
 (postdocs)=
-# Postdocs 
+# Postdocs
 
 (courtney-hall)=
-## Courtney Hall, Ph.D.
+```{grid} 1 1 1 1
+:::{grid-item-card} Courtney Hall, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/courtney-hall.webp
+:img-alt: Courtney Hall, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Postdoctoral Fellow
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-lab}
+<span>{ref}`Timp <winston-timp>` Lab</span>
 
-:::{image} /_static/people/courtney-hall.webp
-:width: 240px
-:alt: Courtney Hall, Ph.D.
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
+
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
+
+{.people-card-email}
+[chall106@jh.edu](mailto:chall106@jh.edu)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Postdoc**  
-
-{ref}`Timp <winston-timp>` Lab 
-
-{{ bme }}  
-
-{{ wse }}  
-
-[chall106@jh.edu](mailto:chall106@jh.edu)  
-
-::::
 ```
 
 (harun-mustafa)=
-## Harun Mustafa, Ph.D.
+```{grid} 1 1 1 1
+:::{grid-item-card} Harun Mustafa, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/harun-mustafa.webp
+:img-alt: Harun Mustafa, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Postdoctoral Fellow
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 
-:::{image} /_static/people/harun-mustafa.webp
-:width: 240px
-:alt: Harun Mustafa, Ph.D.
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
+
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
+
+{.people-card-email}
+[hmustaf6@jh.edu](mailto:hmustaf6@jh.edu)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Postdoc**  
-
-{ref}`Salzberg <steven-l-salzberg>` Lab 
-
-{{ bme }}  
-
-{{ wse }}  
-
-[hmustaf6@jh.edu](mailto:hmustaf6@jh.edu)  
-
-::::
 ```
-
-(srujan-singh)=
-## Srujan Singh, Ph.D.
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/srujan-singh.webp
-:width: 240px
-:alt: Srujan Singh, Ph.D.
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Postdoc**  
-
-{ref}`Fan <jean-fan>` Lab 
-
-{{ bme }}  
-
-{{ wse }}  
-
-[ssingh95@jhu.edu](mailto:ssingh95@jhu.edu)  
-
-::::
-```
-

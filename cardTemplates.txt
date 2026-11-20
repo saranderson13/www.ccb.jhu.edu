@@ -10,7 +10,10 @@
 {.people-card-position}
 POSITION
 
-{.people-card-position}
+{.people-card-lab}
+<span>{ref}`FAC-NAME <FAC-NAME-AS-LINK>` Lab</span>
+
+{.people-card-position .last-position}
 POSITION
 
 {.people-card-institution}
