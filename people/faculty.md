@@ -539,7 +539,7 @@ Assistant Professor
 Bloomberg Distinguished Professor
 
 {.people-card-institution}
-[Whiting School of Engineering](https://engineering.jhu.edu/r
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
 {.people-card-institution .last-institution}
 [School of Medicine](https://www.hopkinsmedicine.org/som)
@@ -574,7 +574,7 @@ Bloomberg Distinguished Professor
 John C. Malone Associate Professor of Computer Science
 
 {.people-card-position}
-Research Director, [Malone Center for Healthcare in Engineering](https://malonecenter.jhu.edu/)
+<span>Research Director, [Malone Center for Healthcare in Engineering](https://malonecenter.jhu.edu/)</span>
 
 {.people-card-institution}
 [Whiting School of Engineering](https://engineering.jhu.edu/)

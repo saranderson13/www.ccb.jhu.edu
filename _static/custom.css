@@ -14,11 +14,13 @@
     --primary-heritage-80: rgba(0, 45, 114, 0.7);
     --primary-spirit: #68ace5;
     --accent-gold: #f1c400;
+    --accent-gold-accessible: #d5ae00;
     --accent-medium-blue: #0077d8;
     --accent-harbor-blue: #4e97e0;
     --accent-mint: rgb(134, 200, 188);
     --accent-mint-50: rgba(134, 200, 188, 0.5);
     --white: rgb(255, 255, 255);
+    --permawhite: #ffffff;
     --white-30: rgba(255, 255, 255, 0.3);
     --white-50: rgba(255, 255, 255, 0.5);
     --white-80: rgba(255, 255, 255, 0.8);
@@ -37,13 +39,17 @@
 html[data-mode="dark"] {
     /* DARK MODE COLORS */
     --accent-mint: rgba(134, 200, 188, 0.5);
-    --accent-gold: #ae8e00;
+    --accent-gold: #d5ae00;
     --white: #14181e;
     /* --accent-medium-blue: #005091; */
 
     /* TO CHANGE HERITAGE LOGO IN HEADER MUST BE TRANSPARENT */
     /* --primary-heritage: rgb(0, 32, 80); */
 
+}
+
+a:hover, a:visited:hover {
+    color: var(--accent-gold-accessible)
 }
 
 /* ATOMIC FONT CLASSES */
@@ -98,9 +104,14 @@ div.me-auto.navbar-header-items__center {
     font-weight: 400;
     font-family: var(--oswald);
 }
-.bd-header ul.navbar-nav>li.nav-item>a.nav-link:hover {
+.bd-header ul.navbar-nav>li.nav-item>a.nav-link:hover, .bd-header ul.navbar-nav>li.nav-item.current>.nav-link {
     color: var(--accent-gold);
 }
+
+.bd-header ul.navbar-nav>li.nav-item.current>.nav-link::before {
+    border-bottom: 3px solid var(--accent-gold);
+}
+
 .bd-header ul.navbar-nav>li.nav-item>.nav-link:hover::before {
     border-bottom: max(2px, .125rem, .1em) solid var(--primary-spirit)
 }
@@ -108,7 +119,7 @@ html .pst-navbar-icon:hover::before {
     border-bottom: none;
 }
 .navbar-header-items__end>.navbar-item:not(:first-child) {
-    color: var(--white)
+    color: var(--permawhite)
 }
 .theme-switch-container.dropdown {
     color: var(--primary-spirit);
@@ -124,7 +135,7 @@ ul.navbar-nav li {
 }
 ul.navbar-nav li:not(:last-child)::after {
     content: "|";
-    color: var(--white);
+    color: var(--permawhite);
     padding: 0px 4px;
     font-weight: 400;
     font-size: 1.2em;
@@ -187,15 +198,9 @@ ul.navbar-nav li:not(:last-child)::after {
     min-width: 640px;
     display: flex;
     align-items: center;
-    color: var(--white);
+    color: var(--permawhite);
     border-bottom: 5px solid var(--primary-heritage);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
-
-html[data-mode="dark"] {
-    #welcome {
-        color: #ffffff;
-    }
 }
 
 .welcome-outer-border {
@@ -220,7 +225,7 @@ html[data-mode="dark"] {
 ======================================================================*/
 
 footer {
-    color: var(--white);
+    color: var(--permawhite);
     background-color: var(--primary-heritage);
     width: 100%;
     height: auto;
@@ -243,7 +248,7 @@ footer {
     text-align: left;
     align-self: flex-start;
     padding: 5px 50px 5px 0px;
-    border-right: 1px solid var(--white);
+    border-right: 1px solid var(--permawhite);
     line-height: 1.2em;
 }
 
@@ -403,6 +408,9 @@ footer {
     width: 100%;
     height: 100px;
     background-color: var(--accent-mint);
+    background-image: url("/Users/sadie/www.ccb.jhu.edu/_static/images/hex1.png");
+    background-repeat: no-repeat;
+    background-position-x: 4%;
 }
 
 .bg-accent img {
@@ -522,6 +530,9 @@ p:has(a[href$=".py"]) {
 
 #indexpg-card-section {
     padding: 5% 5%;
+    background-image: url("/Users/sadie/www.ccb.jhu.edu/_static/images/hex1.png");
+    background-repeat: no-repeat;
+    background-position: 4% -100px;
 }
 
 .indexpg-card {
@@ -572,8 +583,12 @@ html[data-mode="dark"] .indexpg-card {
 
 }
 .indexpg-card-body a:hover {
+    color: var(--primary-heritage);
+}
+html[data-mode="dark"] .indexpg-card-body a:hover {
     color: var(--accent-gold);
 }
+
 .indexpg-card-body p.rubric {
     border: none;
 }
@@ -689,9 +704,9 @@ div.people-card {
 
 }
 
-.people-card-dept a:hover {
+/* .people-card-dept a:hover {
     color: var(--accent-medium-blue)
-}
+} */
 
 .people-card-email {
     font-family: var(--oswald);
@@ -734,7 +749,7 @@ div.people-card {
             aspect-ratio: 1 / 1;
         }
 
-        .people-card-position {
+        .people-card-position, .people-card-position span {
             padding-bottom: .2em;
         }
     }
