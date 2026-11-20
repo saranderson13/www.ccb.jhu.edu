@@ -1,336 +1,237 @@
 (students)=
-# Students 
-
-(beril-erdogdu)=
-## Beril Erdogdu
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/beril-erdogdu.webp
-:width: 240px
-:alt: Beril Erdogdu
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Ph.D. student**  
-
-{ref}`Salzberg <steven-l-salzberg>` Lab 
-{ref}`Pertea <mihaela-pertea>` Lab 
-
-{{ bme }}  
-
-[berdogd1@jhu.edu](mailto:berdogd1@jhu.edu)  
-
-::::
-```
-
-(caleb-hallinan)=
-## Caleb Hallinan
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/caleb-hallinan.webp
-:width: 240px
-:alt: Caleb Hallinan
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Ph.D. student**  
-
-{ref}`Fan <jean-fan>` Lab 
-
-{{ bme }}  
-
-[challin1@jh.edu](mailto:challin1@jh.edu)  
-
-::::
-```
-
-(celine-hoh)=
-## Celine Hoh
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/celine-hoh.webp
-:width: 240px
-:alt: Celine Hoh
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Ph.D. student**  
-
-{ref}`Salzberg <steven-l-salzberg>` Lab 
-
-{{ cs }}  
-
-[choh1@jhu.edu](mailto:choh1@jhu.edu)  
-
-::::
-```
+# Students
 
 (david-bass)=
-## David Bass
+```{grid} 1 1 1 1
+:::{grid-item-card} David Bass
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/david-bass.webp
+:img-alt: David Bass
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Ph.D. Student
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 
-:::{image} /_static/people/david-bass.webp
-:width: 240px
-:alt: David Bass
+{.people-card-institution .last-institution}
+[Krieger School of Arts & Sciences](https://krieger.jhu.edu/)
+
+{.people-card-dept}
+[Cell, Molecular, Developmental Biology && Biophysics](https://cmdb.jhu.edu/)
+
+{.people-card-email}
+[dbass13@jh.edu](mailto:dbass13@jh.edu)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Ph.D. student**  
-
-{ref}`Salzberg <steven-l-salzberg>` Lab 
-
- 
-[Cell, Molecular, Developmental Biology, and Biophysics](https://cmdb.jhu.edu/)  
-
-[dbass13@jh.edu](mailto:dbass13@jh.edu)  
-
-::::
-```
-
-(hyun-joo-ji)=
-## Hyun Joo Ji
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/hyun-joo-ji.webp
-:width: 240px
-:alt: Hyun Joo Ji
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Ph.D. student**  
-
-{ref}`Salzberg <steven-l-salzberg>` Lab 
-
-{{ cs }}  
-
-[hji20@jh.edu](mailto:hji20@jh.edu)  
-
-::::
-```
-
-(kalen-clifton)=
-## Kalen Clifton
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/kalen-clifton.webp
-:width: 240px
-:alt: Kalen Clifton
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Ph.D. student**  
-
-{ref}`Fan <jean-fan>` Lab 
-
-{{ bme }}  
-
-[kclifto2@jh.edu](mailto:kclifto2@jh.edu)  
-
-::::
-```
-
-(nikola-zadorozhny)=
-## Nikola Zadorozhny
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/nikola-zadorozhny.webp
-:width: 240px
-:alt: Nikola Zadorozhny
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Ph.D. student**  
-
-{ref}`Salzberg <steven-l-salzberg>` Lab 
-{ref}`Pertea <mihaela-pertea>` Lab 
-
-{{ cs }}  
-
-[nikola.zadorozhny@gmail.com](mailto:nikola.zadorozhny@gmail.com)  
-
-::::
-```
-
-(radhika-jangi)=
-## Radhika Jangi
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/radhika-jangi.webp
-:width: 240px
-:alt: Radhika Jangi
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Ph.D. student**  
-
-{ref}`Battle <alexis-battle>` Lab 
-
-{{ bio }}  
-
-[rjangi1@jhu.edu](mailto:rjangi1@jhu.edu)  
-
-::::
-```
-
-(rafael-dos-santos-peixoto)=
-## Rafael dos Santos Peixoto
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/rafael-dos-santos-peixoto.webp
-:width: 240px
-:alt: Rafael dos Santos Peixoto
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Ph.D. student**  
-
-{ref}`Fan <jean-fan>` Lab 
-
-{{ bme }}  
-
-[rpeixot1@jh.edu](mailto:rpeixot1@jh.edu)  
-
-::::
 ```
 
 (yuchen-ge)=
-## Yuchen Ge
+```{grid} 1 1 1 1
+:::{grid-item-card} Yuchen Ge
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/yuchen-ge.webp
+:img-alt: Yuchen Ge
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Ph.D. Student
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 
-:::{image} /_static/people/yuchen-ge.webp
-:width: 240px
-:alt: Yuchen Ge
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
+
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
+
+{.people-card-email}
+[yge15@jhmi.edu](mailto:yge15@jhmi.edu)
 :::
+```
 
-::::
+(caleb-hallinan)=
+```{grid} 1 1 1 1
+:::{grid-item-card} Caleb Hallinan
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/caleb-hallinan.webp
+:img-alt: Caleb Hallinan
 
-::::{grid-item-card}
-:columns: 12 12 9 9
+{.people-card-position}
+Ph.D. Student
 
-**Ph.D. student**  
+{.people-card-lab}
+<span>{ref}`Fan <jean-fan>` Lab</span>
 
-{ref}`Salzberg <steven-l-salzberg>` Lab 
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
-{{ bme }}  
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
 
-[yge15@jhmi.edu](mailto:yge15@jhmi.edu)  
+{.people-card-email}
+[challin1@jh.edu](mailto:challin1@jh.edu)
+:::
+```
 
-::::
+(celine-hoh)=
+```{grid} 1 1 1 1
+:::{grid-item-card} Celine Hoh
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/celine-hoh.webp
+:img-alt: Celine Hoh
+
+{.people-card-position}
+Ph.D. Student
+
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
+
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
+
+{.people-card-dept}
+[Department of Computer Science](https://www.cs.jhu.edu/)
+
+{.people-card-email}
+[choh1@jhu.edu](mailto:choh1@jhu.edu)
+:::
+```
+
+(radhika-jangi)=
+```{grid} 1 1 1 1
+:::{grid-item-card} Radhika Jangi
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/radhika-jangi.webp
+:img-alt: Radhika Jangi
+
+{.people-card-position}
+Ph.D. Student
+
+{.people-card-lab}
+<span>{ref}`Battle <alexis-battle>` Lab</span>
+
+{.people-card-institution .last-institution}
+[Krieger School of Arts & Sciences](https://krieger.jhu.edu/)
+
+{.people-card-dept}
+[Department of Biology](https://bio.jhu.edu/)
+
+{.people-card-email}
+[rjangi1@jhu.edu](mailto:rjangi1@jhu.edu)
+:::
+```
+
+(hyun-joo-ji)=
+```{grid} 1 1 1 1
+:::{grid-item-card} Hyun Joo Ji
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/hyun-joo-ji.webp
+:img-alt: Hyun Joo Ji
+
+{.people-card-position}
+Ph.D. Student
+
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
+
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
+
+{.people-card-dept}
+[Department of Computer Science](https://www.cs.jhu.edu/)
+
+{.people-card-email}
+[hji20@jh.edu](mailto:hji20@jh.edu)
+:::
+```
+
+(rafael-dos-santos-peixoto)=
+```{grid} 1 1 1 1
+:::{grid-item-card} Rafael dos Santos Peixoto
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/rafael-dos-santos-peixoto.webp
+:img-alt: Rafael dos Santos Peixoto
+
+{.people-card-position}
+Ph.D. Student
+
+{.people-card-lab}
+<span>{ref}`Fan <jean-fan>` Lab</span>
+
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
+
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
+
+{.people-card-email}
+[rpeixot1@jh.edu](mailto:challin1@jh.edu)
+:::
 ```
 
 (zoe-catherine-rudnick)=
-## Zoe Catherine Rudnick
+```{grid} 1 1 1 1
+:::{grid-item-card} Zoe Catherine Rudnick
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/zoe-catherine-rudnick.webp
+:img-alt: Zoe Catherine Rudnick
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Ph.D. Student
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 
-:::{image} /_static/people/zoe-catherine-rudnick.webp
-:width: 240px
-:alt: Zoe Catherine Rudnick
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
+
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
+
+{.people-card-email}
+[zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Ph.D. student**  
-
-{ref}`Pertea <mihaela-pertea>` Lab 
-
-{{ bme }}  
-
-[zrudnic1@jhu.edu](mailto:zrudnic1@jhu.edu)  
-
-::::
 ```
 
+
+(nikola-zadorozhny)=
+```{grid} 1 1 1 1
+:::{grid-item-card} Nikola Zadorozhny
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/nikola-zadorozhny.webp
+:img-alt: Nikola Zadorozhny
+
+{.people-card-position}
+Ph.D. Student
+
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab & {ref}`Pertea <mihaela-pertea>` Lab</span>
+
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
+
+{.people-card-dept}
+[Department of Computer Science](https://www.cs.jhu.edu/)
+
+{.people-card-email}
+[nikola.zadorozhny@gmail.com](mailto:nikola.zadorozhny@gmail.com)
+:::
+```
