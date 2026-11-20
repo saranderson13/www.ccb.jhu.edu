@@ -1,10 +1,15 @@
+---
+html_theme.sidebar_primary.remove: true
+html_theme.sidebar_secondary.remove: true
+---
+
 (postdocs)=
 # Postdocs
 
 (courtney-hall)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Courtney Hall, Ph.D.
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/courtney-hall.webp
@@ -30,7 +35,7 @@ Postdoctoral Fellow
 (harun-mustafa)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Harun Mustafa, Ph.D.
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/harun-mustafa.webp

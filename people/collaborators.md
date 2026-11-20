@@ -1,5 +1,10 @@
+---
+html_theme.sidebar_primary.remove: true
+html_theme.sidebar_secondary.remove: true
+---
+
 (collaborators)=
-# Collaborators 
+# Collaborators
 
 (carl-kingsford)=
 ## [Carl Kingsford, Ph.D.](https://kingsfordlab.cbd.cmu.edu/)
@@ -20,15 +25,15 @@
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor of Computer Science**  
+**Professor of Computer Science**
 
- 
-Ray and Stephanie Lane Center for Computational Biology  
 
- 
-[Carl Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/)  
+Ray and Stephanie Lane Center for Computational Biology
 
-[carlk@cs.cmu.edu](mailto:carlk@cs.cmu.edu)  
+
+[Carl Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/)
+
+[carlk@cs.cmu.edu](mailto:carlk@cs.cmu.edu)
 
 ::::
 ```
@@ -52,18 +57,18 @@ Ray and Stephanie Lane Center for Computational Biology
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Associate Professor of Genome Sciences**  
+**Associate Professor of Genome Sciences**
 
- 
-[Rinn Lab](https://www.rinnlab.com)  
 
- 
-The Broad Institute of MIT and Harvard  
+[Rinn Lab](https://www.rinnlab.com)
 
- 
-UW Genome Sciences  
 
-[coletrap@uw.edu](mailto:coletrap@uw.edu)  
+The Broad Institute of MIT and Harvard
+
+
+UW Genome Sciences
+
+[coletrap@uw.edu](mailto:coletrap@uw.edu)
 
 ::::
 ```
@@ -87,10 +92,10 @@ UW Genome Sciences
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor**  
-**Director of the Institute for Genome Sciences at the University of Maryland School of Medicine**  
+**Professor**
+**Director of the Institute for Genome Sciences at the University of Maryland School of Medicine**
 
-[ejfertig@jhmi.edu](mailto:ejfertig@jhmi.edu)  
+[ejfertig@jhmi.edu](mailto:ejfertig@jhmi.edu)
 
 ::::
 ```
@@ -114,18 +119,18 @@ UW Genome Sciences
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Distinguished University Professor**  
+**Distinguished University Professor**
 
- 
-Institute for Physical Sciences and Technology  
 
- 
-UMCP  
+Institute for Physical Sciences and Technology
 
- 
-University of Maryland  
 
-[yorke@umd.edu](mailto:yorke@umd.edu)  
+UMCP
+
+
+University of Maryland
+
+[yorke@umd.edu](mailto:yorke@umd.edu)
 
 ::::
 ```
@@ -149,16 +154,16 @@ University of Maryland
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Professor, Department of Computer Science**  
-**Director, University of Maryland Institute for Advanced Computer Studies (UMIACS)**  
+**Professor, Department of Computer Science**
+**Director, University of Maryland Institute for Advanced Computer Studies (UMIACS)**
 
- 
-[Center for Bioinformatics and Computational Biology (CBCB)](https://cbcb.umd.edu/)  
 
- 
-University of Maryland  
+[Center for Bioinformatics and Computational Biology (CBCB)](https://cbcb.umd.edu/)
 
-[mpop@umiacs.umd.edu](mailto:mpop@umiacs.umd.edu)  
+
+University of Maryland
+
+[mpop@umiacs.umd.edu](mailto:mpop@umiacs.umd.edu)
 
 ::::
 ```
@@ -182,15 +187,15 @@ University of Maryland
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Principal Investigator**  
+**Principal Investigator**
 
- 
-Department of Cell Biology and Molecular Genetics  
 
- 
-University of Maryland  
+Department of Cell Biology and Molecular Genetics
 
-[nelsayed@umiacs.umd.edu](mailto:nelsayed@umiacs.umd.edu)  
+
+University of Maryland
+
+[nelsayed@umiacs.umd.edu](mailto:nelsayed@umiacs.umd.edu)
 
 ::::
 ```
@@ -214,16 +219,15 @@ University of Maryland
 ::::{grid-item-card}
 :columns: 12 12 9 9
 
-**Pine Reference Sequences Project**  
+**Pine Reference Sequences Project**
 
- 
-PineRefSeq: Conifer Reference Genome Sequencing  
 
- 
-An adaptive approach to the sequencing of the large genomes of multiple conifer species.  
+PineRefSeq: Conifer Reference Genome Sequencing
 
-[email@jhu.edu](mailto:email@jhu.edu)  
+
+An adaptive approach to the sequencing of the large genomes of multiple conifer species.
+
+[email@jhu.edu](mailto:email@jhu.edu)
 
 ::::
 ```
-

@@ -1,10 +1,15 @@
+---
+html_theme.sidebar_primary.remove: true
+html_theme.sidebar_secondary.remove: true
+---
+
 (staff)=
 # Staff
 
 (rebecca-keener)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Rebecca Keener, Ph.D.
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/rebecca-keener.webp
@@ -30,7 +35,7 @@ Assistant Research Scientist
 (daniela-puiu)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Daniela Puiu, M.S.
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/daniela-puiu.webp
@@ -56,7 +61,7 @@ Senior Software Engineer
 (sarah-bailey)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Sarah Bailey
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/sarah-bailey.webp

@@ -1,10 +1,15 @@
+---
+html_theme.sidebar_primary.remove: true
+html_theme.sidebar_secondary.remove: true
+---
+
 (students)=
 # Students
 
 (david-bass)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} David Bass
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/david-bass.webp
@@ -30,7 +35,7 @@ Ph.D. Student
 (yuchen-ge)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Yuchen Ge
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/yuchen-ge.webp
@@ -56,7 +61,7 @@ Ph.D. Student
 (caleb-hallinan)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Caleb Hallinan
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/caleb-hallinan.webp
@@ -82,7 +87,7 @@ Ph.D. Student
 (celine-hoh)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Celine Hoh
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/celine-hoh.webp
@@ -108,7 +113,7 @@ Ph.D. Student
 (radhika-jangi)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Radhika Jangi
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/radhika-jangi.webp
@@ -134,7 +139,7 @@ Ph.D. Student
 (hyun-joo-ji)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Hyun Joo Ji
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/hyun-joo-ji.webp
@@ -160,7 +165,7 @@ Ph.D. Student
 (rafael-dos-santos-peixoto)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Rafael dos Santos Peixoto
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/rafael-dos-santos-peixoto.webp
@@ -186,7 +191,7 @@ Ph.D. Student
 (zoe-catherine-rudnick)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Zoe Catherine Rudnick
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/zoe-catherine-rudnick.webp
@@ -213,7 +218,7 @@ Ph.D. Student
 (nikola-zadorozhny)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Nikola Zadorozhny
-:class-card: people-card
+:class-card: people-card nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/nikola-zadorozhny.webp
