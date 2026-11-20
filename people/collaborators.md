@@ -7,97 +7,81 @@ html_theme.sidebar_secondary.remove: true
 # Collaborators
 
 (carl-kingsford)=
-## [Carl Kingsford, Ph.D.](https://kingsfordlab.cbd.cmu.edu/)
+```{grid} 1 1 1 1
+:::{grid-item-card} Carl Kingsford, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/carl-kingsford.webp
+:img-alt: Carl Kingsford, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position .last-position}
+Professor of Computer Science
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-institution .last-institution}
+[Ray & Stephanie Lane Center for Computational Biology](https://www.cmu.edu/cbd/)
 
-:::{image} /_static/people/carl-kingsford.webp
-:width: 240px
-:alt: Carl Kingsford, Ph.D.
-:::
+{.people-card-dept}
+[Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/)
 
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Professor of Computer Science**
-
-
-Ray and Stephanie Lane Center for Computational Biology
-
-
-[Carl Kingsford Lab, Carnegie Mellon University](https://kingsfordlab.cbd.cmu.edu/)
-
+{.people-card-email}
 [carlk@cs.cmu.edu](mailto:carlk@cs.cmu.edu)
-
-::::
+:::
 ```
 
 (cole-trapnell)=
-## [Cole Trapnell, Ph.D.](https://cole-trapnell-lab.github.io/)
+```{grid} 1 1 1 1
+:::{grid-item-card} Cole Trapnell, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/cole-trapnell.webp
+:img-alt: Cole Trapnell, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position .last-position}
+Professor of Genome Sciences
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-institution .last-institution}
+[UW Genome Sciences](https://www.gs.washington.edu/)
 
-:::{image} /_static/people/cole-trapnell.webp
-:width: 240px
-:alt: Cole Trapnell, Ph.D.
-:::
+{.people-card-dept}
+[Trapnell Lab, University of Washington](https://cole-trapnell-lab.github.io/)
 
-::::
+{.people-card-dept}
+[Rinn Lab Postdoc Alumni, Harvard University](https://www.rinnlab.com/)
 
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Associate Professor of Genome Sciences**
-
-
-[Rinn Lab](https://www.rinnlab.com)
-
-
-The Broad Institute of MIT and Harvard
-
-
-UW Genome Sciences
-
+{.people-card-email}
 [coletrap@uw.edu](mailto:coletrap@uw.edu)
-
-::::
+:::
 ```
 
 (elana-fertig)=
-## [Elana Fertig, Ph.D.](https://fertiglab.com/)
+```{grid} 1 1 1 1
+:::{grid-item-card} Elana Fertig, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/elana-fertig.webp
+:img-alt: Elana Fertig, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Dean E. Albert Reece Endowed Professor
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-position}
+<span>Director, [Institute of Genome Science (IGS)](https://marylandgenomics.org/)</span>
 
-:::{image} /_static/people/elana-fertig.webp
-:width: 240px
-:alt: Elana Fertig, Ph.D.
+{.people-card-position .last-position}
+<span>Associate Director, [Quantitative Science in the Marlene and Stewart Greenebaum Comprehensive Cancer Center (UMGCCC)](https://www.umms.org/umgccc/locations/university-of-maryland-marlene-stewart-greenebaum-comprehensive-cancer-center)</span>
+
+{.people-card-institution .last-institution}
+[University of Maryland, School of Medicine](https://www.medschool.umaryland.edu)
+
+{.people-card-dept}
+[Fertig Lab](https://fertiglab.github.io)
+
+{.people-card-email}
+[ejfertig@som.umaryland.edu](mailto:ejfertig@som.umaryland.edu)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Professor**
-**Director of the Institute for Genome Sciences at the University of Maryland School of Medicine**
-
-[ejfertig@jhmi.edu](mailto:ejfertig@jhmi.edu)
-
-::::
 ```
 
 (james-a-yorke)=
