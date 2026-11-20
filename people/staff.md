@@ -1,93 +1,77 @@
 (staff)=
-# Staff 
+# Staff
 
 (rebecca-keener)=
-## Rebecca Keener, Ph.D.
+```{grid} 1 1 1 1
+:::{grid-item-card} Rebecca Keener, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/rebecca-keener.webp
+:img-alt: Rebecca Keener, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Assistant Research Scientist
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-lab}
+<span>{ref}`Battle <alexis-battle>` Lab</span>
 
-:::{image} /_static/people/rebecca-keener.webp
-:width: 240px
-:alt: Rebecca Keener, Ph.D.
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
+
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
+
+{.people-card-email}
+[rkeener@jhmi.edu](mailto:rkeener@jhmi.edu)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Assistant Research Scientist, Battle Lab**  
-
-{{ bme }}  
-
-{{ wse }}  
-
-[rkeener@jhmi.edu](mailto:rkeener@jhmi.edu)  
-
-::::
 ```
 
 (daniela-puiu)=
-## Daniela Puiu, M.S.
+```{grid} 1 1 1 1
+:::{grid-item-card} Daniela Puiu, M.S.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/daniela-puiu.webp
+:img-alt: Daniela Puiu, M.S.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Bioinformatics Engineer
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-position .last-position}
+Senior Software Engineer
 
-:::{image} /_static/people/daniela-puiu.webp
-:width: 240px
-:alt: Daniela Puiu, M.S.
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
+
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
+
+{.people-card-email}
+[dpuiu@jhu.edu](mailto:dpuiu@jhu.edu)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Bioinformatics Engineer & Senior Software Engineer**  
-
-{{ bme }}  
-
-{{ wse }}  
-
-[dpuiu@jhu.edu](mailto:dpuiu@jhu.edu)  
-
-::::
 ```
 
 (sarah-bailey)=
-## Sarah Bailey
+```{grid} 1 1 1 1
+:::{grid-item-card} Sarah Bailey
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/sarah-bailey.webp
+:img-alt: Sarah Bailey
 
-```{grid} 12
-:gutter: 1
+{.people-card-position .last-position}
+Sr. Administrative Coordinator
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-institution .last-institution}
+[Whiting School of Engineering](https://engineering.jhu.edu/)
 
-:::{image} /_static/people/sarah-bailey.webp
-:width: 240px
-:alt: Sarah Bailey
+{.people-card-dept}
+[Department of Biomedical Engineering](https://www.bme.jhu.edu/)
+
+{.people-card-email}
+[sande125@jhu.edu](mailto:sande125@jhu.edu)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Sr. Administrative Coordinator**  
-
-{{ bme }}  
-
-{{ wse }}  
-
-[sande125@jhu.edu](mailto:sande125@jhu.edu)  
-
-::::
 ```
-
