@@ -15,7 +15,7 @@ html_theme.sidebar_secondary.remove: true
 :img-top: /_static/people/rafael-irizarry.webp
 :img-alt: Rafael A. Irizarry, Ph.D.
 
-{.people-card-position}
+{.people-card-position .last-position}
 <span>Professor of Biostatistics, [Harvard T.H. Chan School of Public Health](https://hsph.harvard.edu/)</span>
 
 {.people-card-position .last-position}
@@ -34,7 +34,7 @@ Until June 2013, Professor of Biostatistics at Johns Hopkins University
 :class-title: people-card-title
 
 {.people-card-position}
-Until 2022, Postdoctoral Fellow
+Until February 2022, Postdoctoral Fellow
 
 {.people-card-lab}
 <span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
@@ -42,99 +42,92 @@ Until 2022, Postdoctoral Fellow
 ```
 
 (florian-breitwieser)=
-## Florian Breitwieser, Ph.D.
+```{grid} 1 1 1 1
+:::{grid-item-card} Florian Breitwieser, Ph.D.
+:class-card: people-card .nonfac-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/florian-breitwieser.webp
+:img-alt: Florian Breitwieser, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position .last-position}
+<span>Principal Software Engineer, [SOPHiA GENETICS](https://www.sophiagenetics.com/)</span>
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-position}
+Until 2019, Postdoctoral Fellow
 
-:::{image} /_static/people/florian-breitwieser.webp
-:width: 240px
-:alt: Florian Breitwieser, Ph.D.
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Principal Software Engineer**
-
-{ref}`Salzberg <steven-l-salzberg>` Lab  @ JHU (until Feb. 2020)
-
-
-[SOPHiA GENETICS](https://www.sophiagenetics.com/)
-
-[florian.bw@gmail.com](mailto:florian.bw@gmail.com)
-
-::::
 ```
 
 (ilia-minkin)=
-## [Ilia Minkin, Ph.D.](https://iminkin.github.io/)
+```{grid} 1 1 1 1
+:::{grid-item-card} [Ilia Minkin, Ph.D.](https://iminkin.github.io/)
+:class-card: people-card .nonfac-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/ilia-minkin.webp
+:img-alt: Ilia Minkin, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position .last-position}
+Research Associate, University of Connecticut
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-position}
+Until 2025, Postdoctoral Fellow
 
-:::{image} /_static/people/ilia-minkin.webp
-:width: 240px
-:alt: Ilia Minkin, Ph.D.
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Postdoctoral Associate**
-
-{ref}`Salzberg <steven-l-salzberg>` Lab  @ JHU (until 2025)
-
-
-[Broad Institute](https://www.broadinstitute.org)
-
-[iminkin@broadinstitute.org](mailto:iminkin@broadinstitute.org)
-
-::::
 ```
 
 (martin-steinegger)=
-## [Martin Steinegger, Ph.D.](https://steineggerlab.com)
+```{grid} 1 1 1 1
+:::{grid-item-card} Martin Steinegger, Ph.D.
+:class-card: people-card .nonfac-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/martin-steinegger.webp
+:img-alt: Martin Steinegger, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+<span>Associate Professor, [School of Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)</span>
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-institution .last-position}
+<span>[Steinegger Lab](https://steineggerlab.com)</span>
 
-:::{image} /_static/people/martin-steinegger.webp
-:width: 240px
-:alt: Martin Steinegger, Ph.D.
+{.people-card-position}
+Until 2020, Postdoctoral Researcher
+
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Assistant Professor**
-
-{ref}`Salzberg <steven-l-salzberg>` Lab  @ JHU (until Feb. 2020)
-
-
-[Biological Sciences, Seoul National University](https://biosci.snu.ac.kr/en/people/faculty?mode=view&profidx=94)
-
-[martin.steinegger@snu.ac.kr](mailto:martin.steinegger@snu.ac.kr)
-
-::::
 ```
 
 (stefan-canzar)=
+```{grid} 1 1 1 1
+:::{grid-item-card} Stefan Canzar, Ph.D.
+:class-card: people-card .nonfac-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/stefan-canzar.webp
+:img-alt: Stefan Canzar, Ph.D.
+
+{.people-card-position}
+<span>Professor, [University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)</span>
+
+{.people-card-institution .last-position}
+<span>[Canzar Lab](https://canzarlab.com/)</span>
+
+{.people-card-position}
+Formerly, Postdoctoral Researcher
+
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
+:::
+```
+
+
 ## [Stefan Canzar, Ph.D.](https://canzarlab.com/)
 
 ```{grid} 12
