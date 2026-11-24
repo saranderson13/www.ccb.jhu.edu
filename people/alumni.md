@@ -30,7 +30,7 @@ Until June 2013, Professor of Biostatistics at Johns Hopkins University
 ```{grid} 1 1 1 1
 :::{grid-item-card} Christopher Pocktrandt, Ph.D.
 :class-card: people-card
-:class-body: people-card body nopic-card
+:class-body: people-card-body nopic-card
 :class-title: people-card-title
 
 {.people-card-position}
@@ -127,38 +127,30 @@ Formerly, Postdoctoral Researcher
 :::
 ```
 
+(stephan-pabinger)=
+```{grid} 1 1 1 1
+:::{grid-item-card} Stephan Pabinger, Ph.D.
+:class-card: people-card .nonfac-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/stephan-pabinger.webp
+:img-alt: Stephan Pabinger, Ph.D.
 
-## [Stefan Canzar, Ph.D.](https://canzarlab.com/)
+{.people-card-position}
+<span>Professor, [University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)</span>
 
-```{grid} 12
-:gutter: 1
+{.people-card-institution .last-position}
+<span>[Canzar Lab](https://canzarlab.com/)</span>
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-position}
+Formerly, Postdoctoral Researcher
 
-:::{image} /_static/people/stefan-canzar.webp
-:width: 240px
-:alt: Stefan Canzar, Ph.D.
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Professor**
-
-{ref}`Salzberg <steven-l-salzberg>` Lab  @ JHU
-
-
-[University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)
-
-[stefan.canzar@ur.de](mailto:stefan.canzar@ur.de)
-
-::::
 ```
 
-(stephan-pabinger)=
+
 ## [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
 
 ```{grid} 12

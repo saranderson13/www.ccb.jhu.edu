@@ -197,7 +197,7 @@ ul.navbar-nav li:not(:last-child)::after {
 ======================================================================*/
 .bd-sidebar-primary {
     background-color: var(--accent-mint);
-    width: 20%;
+    max-width: 20%;
 }
 
 .bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-icon,
@@ -395,7 +395,7 @@ footer {
     width: 100%;
     color: var(--dark-gray);
     border-bottom: 3px solid transparent;
-    background: linear-gradient(to right, var(--white) 0%, transparent 60%);
+    background: linear-gradient(to right, var(--permawhite) 0%, transparent 60%);
     /* border-left: double 9px var(--primary-heritage); */
     /* GRADIENT BOTTOM BORDER */
     /* linear-gradient(var(--accent-mint), var(--accent-mint)) padding-box, */
@@ -444,10 +444,10 @@ footer {
     }
 
 /* INDEX PAGE DARK MODE MODIFICATIONS */
-    html[data-mode="dark"] .statement-title {
+    /* html[data-mode="dark"] .statement-title {
         color: var(--dark-gray);
         background: linear-gradient(to right, var(--white-30) 0%, transparent 60%);
-    }
+    } */
 
 /* ---------- */
 
@@ -695,14 +695,18 @@ div.nopic-card {
     margin-bottom: 0rem;
 }
 
-.people-card-body {
-    padding: 0.5rem 2rem !important;
-    background: linear-gradient(to right, var(--white) 60%, var(--primary-heritage-50) 160%) !important;
+div.people-card-body, div.nopic-card {
+    padding: 0.5rem 2rem;
+    background: linear-gradient(to right, var(--white) 60%, var(--primary-heritage-50) 160%);
+}
+
+div.people-card-body.nopic-card {
+    padding: 1rem 2rem 1.5rem;
 }
 
 html[data-mode="dark"] {
-    .people-card-body {
-        background: linear-gradient(to right, var(--white) 60%, var(--primary-heritage) 160%) !important;
+    div.people-card-body, div.nopic-card {
+        background: linear-gradient(to right, var(--white) 60%, var(--primary-heritage) 160%);
     }
 }
 
