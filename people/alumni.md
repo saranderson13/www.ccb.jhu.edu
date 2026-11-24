@@ -26,41 +26,6 @@ Until June 2013, Professor of Biostatistics at Johns Hopkins University
 :::
 ```
 
-(christopher-pockrandt)=
-```{grid} 1 1 1 1
-:::{grid-item-card} Christopher Pocktrandt, Ph.D.
-:class-card: people-card
-:class-body: people-card-body nopic-card
-:class-title: people-card-title
-
-{.people-card-position}
-Until February 2022, Postdoctoral Fellow
-
-{.people-card-lab}
-<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
-:::
-```
-
-(florian-breitwieser)=
-```{grid} 1 1 1 1
-:::{grid-item-card} Florian Breitwieser, Ph.D.
-:class-card: people-card .nonfac-card
-:class-body: people-card-body
-:class-title: people-card-title
-:img-top: /_static/people/florian-breitwieser.webp
-:img-alt: Florian Breitwieser, Ph.D.
-
-{.people-card-position .last-position}
-<span>Principal Software Engineer, [SOPHiA GENETICS](https://www.sophiagenetics.com/)</span>
-
-{.people-card-position}
-Until 2019, Postdoctoral Fellow
-
-{.people-card-lab}
-<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
-:::
-```
-
 (ilia-minkin)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} [Ilia Minkin, Ph.D.](https://iminkin.github.io/)
@@ -75,6 +40,21 @@ Research Associate, University of Connecticut
 
 {.people-card-position}
 Until 2025, Postdoctoral Fellow
+
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
+:::
+```
+
+(christopher-pockrandt)=
+```{grid} 1 1 1 1
+:::{grid-item-card} Christopher Pocktrandt, Ph.D.
+:class-card: people-card
+:class-body: people-card-body nopic-card
+:class-title: people-card-title
+
+{.people-card-position}
+Until February 2022, Postdoctoral Fellow
 
 {.people-card-lab}
 <span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
@@ -104,6 +84,26 @@ Until 2020, Postdoctoral Researcher
 :::
 ```
 
+(florian-breitwieser)=
+```{grid} 1 1 1 1
+:::{grid-item-card} Florian Breitwieser, Ph.D.
+:class-card: people-card .nonfac-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/florian-breitwieser.webp
+:img-alt: Florian Breitwieser, Ph.D.
+
+{.people-card-position .last-position}
+<span>Principal Software Engineer, [SOPHiA GENETICS](https://www.sophiagenetics.com/)</span>
+
+{.people-card-position}
+Until 2019, Postdoctoral Fellow
+
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
+:::
+```
+
 (stefan-canzar)=
 ```{grid} 1 1 1 1
 :::{grid-item-card} Stefan Canzar, Ph.D.
@@ -120,7 +120,7 @@ Until 2020, Postdoctoral Researcher
 <span>[Canzar Lab](https://canzarlab.com/)</span>
 
 {.people-card-position}
-Formerly, Postdoctoral Researcher
+Until 2014, Postdoctoral Researcher
 
 {.people-card-lab}
 <span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
@@ -129,133 +129,65 @@ Formerly, Postdoctoral Researcher
 
 (stephan-pabinger)=
 ```{grid} 1 1 1 1
-:::{grid-item-card} Stephan Pabinger, Ph.D.
+:::{grid-item-card} [Stephan Pabinger, Ph.D.](https://pabinger.site44.com/#stephan)
 :class-card: people-card .nonfac-card
 :class-body: people-card-body
 :class-title: people-card-title
 :img-top: /_static/people/stephan-pabinger.webp
 :img-alt: Stephan Pabinger, Ph.D.
 
-{.people-card-position}
-<span>Professor, [University of Regensburg, Faculty of Informatics and Data Science](https://www.uni-regensburg.de/en/informatics-data-science/faculty/facilities/algorithmic-bioinformatics/team/prof-dr-stefan-canzar)</span>
-
-{.people-card-institution .last-position}
-<span>[Canzar Lab](https://canzarlab.com/)</span>
+{.people-card-position .last-position}
+Manager International Supply Chain Management, Aldi
 
 {.people-card-position}
-Formerly, Postdoctoral Researcher
+Until 2013, Visiting Postdoctoral Fellow
 
 {.people-card-lab}
 <span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 :::
 ```
 
-
-## [Stephan Pabinger, Ph.D.](https://pabinger.site44.com)
-
-```{grid} 12
-:gutter: 1
-
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/stephan-pabinger.webp
-:width: 240px
-:alt: Stephan Pabinger, Ph.D.
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Postdoctoral Research Fellow**
-
-{ref}`Salzberg <steven-l-salzberg>` Lab  @ JHU
-
-
-McKusick-Nathans Institute of Genetic Medicine
-
-
-[Aldi](https://www.aldicareers.com.au/)
-
-[stephan.pabinger@i-med.ac.at](mailto:stephan.pabinger@i-med.ac.at)
-
-::::
-```
-
 (tanja-magoc)=
-## [Tanja Magoc, Ph.D.](https://idr.ufhealth.org/profile/magoc-tanja/)
+```{grid} 1 1 1 1
+:::{grid-item-card} Tanja Magoc, Ph.D.
+:class-card: people-card .nonfac-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/tanja-magoc.webp
+:img-alt: Tanja Magoc, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position .last-position}
+<span>Clinical Systems Consultant, [UF Health](https://idr.ufhealth.org/profile/magoc-tanja/)</span>
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-position}
+Until 2012, Postdoctoral Fellow
 
-:::{image} /_static/people/tanja-magoc.webp
-:width: 240px
-:alt: Tanja Magoc, Ph.D.
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Postdoctoral Research Fellow**
-
-{ref}`Salzberg <steven-l-salzberg>` Lab  @ JHU
-
-
-[HEPData](https://www.hepdata.com/)
-
-
-Associate Director, AI/QI Program, Quality and Patient Safety Initiative
-
-
-[University of Florida Health](https://idr.ufhealth.org/profile/magoc-tanja/)
-
-[t.magoc@gmail.com](mailto:t.magoc@gmail.com)
-
-::::
 ```
 
 (todd-j-treangen)=
-## [Todd J. Treangen, Ph.D.](https://profiles.rice.edu/faculty/todd-treangen)
+```{grid} 1 1 1 1
+:::{grid-item-card} Todd J. Treangen, Ph.D.
+:class-card: people-card .nonfac-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/todd-j-treangen.webp
+:img-alt: Todd J. Treangen, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+<span>Associate Professor of [Computer Science, Rice University](https://csweb.rice.edu/)</span>
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-position .last-position}
+<span>Co-Founder & Chief Executive Officer, [Train Genomics](https://www.traingenomics.com/)</span>
 
-:::{image} /_static/people/todd-j-treangen.webp
-:width: 240px
-:alt: Todd J. Treangen, Ph.D.
+{.people-card-position}
+Until 2012, Postdoctoral Fellow
+
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Senior Bioinformatics Scientist**
-
-{ref}`Salzberg <steven-l-salzberg>` Lab  @ JHU
-
-
-CCB UMD
-
-
-National Biodefense Analysis and Countermeasures Center
-
-
-[Rice University](https://profiles.rice.edu/faculty/todd-treangen)
-
-[treangen@gmail.com](mailto:treangen@gmail.com)
-
-::::
 ```
 
 (alaina-shumate)=
