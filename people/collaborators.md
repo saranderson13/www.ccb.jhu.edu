@@ -16,7 +16,7 @@ html_theme.sidebar_secondary.remove: true
 :img-alt: Carl Kingsford, Ph.D.
 
 {.people-card-position .last-position}
-Professor of Computer Science
+<span>Professor, [Carnegie Mellon Department of Computer Science](https://www.cs.cmu.edu/)</span>
 
 {.people-card-institution .last-institution}
 [Ray & Stephanie Lane Center for Computational Biology](https://www.cmu.edu/cbd/)
@@ -39,10 +39,7 @@ Professor of Computer Science
 :img-alt: Cole Trapnell, Ph.D.
 
 {.people-card-position .last-position}
-Professor of Genome Sciences
-
-{.people-card-institution .last-institution}
-[UW Genome Sciences](https://www.gs.washington.edu/)
+<span>Professor, [University of Washington Genome Sciences](https://www.gs.washington.edu/)</span>
 
 {.people-card-dept}
 [Trapnell Lab, University of Washington](https://cole-trapnell-lab.github.io/)
@@ -68,16 +65,16 @@ Professor of Genome Sciences
 Dean E. Albert Reece Endowed Professor
 
 {.people-card-position}
-<span>Director, [Institute of Genome Science (IGS)](https://marylandgenomics.org/)</span>
+<span>Director, [Institute of Genome Science](https://marylandgenomics.org/)</span>
 
 {.people-card-position .last-position}
-<span>Associate Director, [Quantitative Science in the Marlene and Stewart Greenebaum Comprehensive Cancer Center (UMGCCC)](https://www.umms.org/umgccc/locations/university-of-maryland-marlene-stewart-greenebaum-comprehensive-cancer-center)</span>
+<span>Associate Director, [Quantitative Science in the Marlene and Stewart Greenebaum Comprehensive Cancer Center](https://www.umms.org/umgccc/locations/university-of-maryland-marlene-stewart-greenebaum-comprehensive-cancer-center)</span>
 
 {.people-card-institution .last-institution}
 [University of Maryland, School of Medicine](https://www.medschool.umaryland.edu)
 
 {.people-card-dept}
-[Fertig Lab](https://fertiglab.github.io)
+[Fertig Lab, University of Maryland](https://fertiglab.github.io)
 
 {.people-card-email}
 [ejfertig@som.umaryland.edu](mailto:ejfertig@som.umaryland.edu)
@@ -85,133 +82,95 @@ Dean E. Albert Reece Endowed Professor
 ```
 
 (james-a-yorke)=
-## [James A. Yorke, Ph.D.](https://yorke.umd.edu/)
+```{grid} 1 1 1 1
+:::{grid-item-card} James A. Yorke
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/james-a-yorke.webp
+:img-alt: James A. Yorke
 
-```{grid} 12
-:gutter: 1
+{.people-card-position .last-position}
+Distinguished University Professor Emeritus
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-institution .last-institution}
+[University of Maryland, Department of Physics](https://www.umdphysics.umd.edu/)
 
-:::{image} /_static/people/james-a-yorke.webp
-:width: 240px
-:alt: James A. Yorke, Ph.D.
-:::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Distinguished University Professor**
-
-
-Institute for Physical Sciences and Technology
-
-
-UMCP
-
-
-University of Maryland
-
+{.people-card-email}
 [yorke@umd.edu](mailto:yorke@umd.edu)
-
-::::
+:::
 ```
 
 (mihai-pop)=
-## [Mihai Pop, Ph.D.](https://pop-lab.org/)
+```{grid} 1 1 1 1
+:::{grid-item-card} Mihai Pop, Ph.D.
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/mihai-pop.webp
+:img-alt: Mihai Pop, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+<span>Professor, [University of Maryland, Department of Computer Science](https://www.cs.umd.edu/)</span>
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-position}
+<span>MPower Professor, [Center for Bioinformatics and Computational Biology](https://www.cbcb.umd.edu/)</span>
 
-:::{image} /_static/people/mihai-pop.webp
-:width: 240px
-:alt: Mihai Pop, Ph.D.
+{.people-card-position .last-position}
+<span>Co-Director, [University of Maryland Center of Excellence in Microbiome Sciences](https://microbiome.umd.edu/)</span>
+
+{.people-card-dept}
+[Pop Lab, University of Maryland](https://www.pop-lab.org)
+
+{.people-card-email}
+[Read before contacting via email.](https://pop-lab.org/pop-lab/read-before-contacting-mihai/)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Professor, Department of Computer Science**
-**Director, University of Maryland Institute for Advanced Computer Studies (UMIACS)**
-
-
-[Center for Bioinformatics and Computational Biology (CBCB)](https://cbcb.umd.edu/)
-
-
-University of Maryland
-
-[mpop@umiacs.umd.edu](mailto:mpop@umiacs.umd.edu)
-
-::::
 ```
 
 (najib-el-sayed)=
-## [Najib El-Sayed, Ph.D.](https://www.najibelsayed.org/)
+```{grid} 1 1 1 1
+:::{grid-item-card} Najib M. El-Sayed
+:class-card: people-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/najib-el-sayed.webp
+:img-alt: Najib M. El-Sayed
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+<span>Professor, [University of Maryland, Cell Biology and Molecular Genetics](https://cbmg.umd.edu/)</span>
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-position}
+<span>Professor, [University of Maryland, Bioinformatics and Compuational Biology](https://cbcb.umd.edu/)</span>
 
-:::{image} /_static/people/najib-el-sayed.webp
-:width: 240px
-:alt: Najib El-Sayed, Ph.D.
+{.people-card-position}
+<span>Director, [Integrated Life Sciences Honor Program](https://www.ils.umd.edu)</span>
+
+{.people-card-position .last-position}
+<span>Director, [Advanced Genomic Technologies Core](https://agtc.umd.edu/)</span>
+
+{.people-card-dept}
+[El-Sayed Lab, University of Maryland](http://www.najibelsayed.org/)
+
+{.people-card-email}
+[elsayed@umd.edu](mailto:elsayed@umd.edu)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Principal Investigator**
-
-
-Department of Cell Biology and Molecular Genetics
-
-
-University of Maryland
-
-[nelsayed@umiacs.umd.edu](mailto:nelsayed@umiacs.umd.edu)
-
-::::
 ```
 
+
+
 (the-pine-genome-project)=
-## [The Pine Genome Project](https://pinegenome.org/pinerefseq/)
+```{grid} 1 1 1 1
+:::{grid-item-card} The Pine Genome Project
+:class-card: people-card nonfac-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/the-pine-genome-project.webp
+:img-alt: The Pine Genome Project
 
-```{grid} 12
-:gutter: 1
+{.people-card-position .last-position}
+<span>[Pine Reference Sequences Project](https://pinegenome.org/)</span>
 
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/the-pine-genome-project.webp
-:width: 240px
-:alt: The Pine Genome Project
+{.people-card-dept}
+An adaptive appraoch to the sequencing of the large genomes of multiple conifer species.
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Pine Reference Sequences Project**
-
-
-PineRefSeq: Conifer Reference Genome Sequencing
-
-
-An adaptive approach to the sequencing of the large genomes of multiple conifer species.
-
-[email@jhu.edu](mailto:email@jhu.edu)
-
-::::
 ```
