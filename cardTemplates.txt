@@ -32,3 +32,20 @@ POSITION
 [EMAIL](mailto:EMAIL)
 :::
 ```
+
+
+NO PIC CARD
+(christopher-pockrandt)=
+```{grid} 1 1 1 1
+:::{grid-item-card} Christopher Pocktrandt, Ph.D.
+:class-card: people-card
+:class-body: people-card body nopic-card
+:class-title: people-card-title
+
+{.people-card-position}
+Until February 2022, Postdoctoral Fellow
+
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
+:::
+```

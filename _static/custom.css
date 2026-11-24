@@ -10,6 +10,7 @@
 :root {
     /* COLORS */
     --primary-heritage: rgb(0, 45, 114);
+    --primary-heritage-30: rgba(0, 45, 114, 0.3);
     --primary-heritage-50: rgba(0, 45, 114, 0.5);
     --primary-heritage-80: rgba(0, 45, 114, 0.7);
     --primary-spirit: #68ace5;
@@ -53,17 +54,9 @@ html[data-mode="dark"] {
 }
 
 /* BANISHING PURPLE */
-    a:hover, a:visited:hover, a.headerlink, nav.bd-links li > a:hover, .bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-collapse-sidebar-label, ul.bd-breadcrumbs li.breadcrumb-item a:hover {
+    a:hover, a:visited:hover, a.headerlink, nav.bd-links li>a:hover, ul.bd-breadcrumbs li.breadcrumb-item a:hover {
         color: var(--accent-gold-accessible)
     }
-
-    .bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-icon {
-        color: var(--primary-heritage)
-    }
-
-        html[data-mode="dark"] .bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-icon {
-            color: var(--primary-spirit)
-        }
 
     #pst-back-to-top, #pst-back-to-top:hover {
         background-color: var(--primary-heritage);
@@ -199,9 +192,42 @@ ul.navbar-nav li:not(:last-child)::after {
 }
 
 
+/*======================================================================
+  4. SIDEBAR
+======================================================================*/
+.bd-sidebar-primary {
+    background-color: var(--accent-mint);
+    width: 20%;
+}
+
+.bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-icon,
+.bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-collapse-sidebar-label,
+nav.bd-links li>a:hover {
+    color: var(--primary-heritage)
+}
+
+html[data-mode="dark"] {
+    .bd-sidebar-primary {
+        background-color: var(--primary-heritage-30)
+    }
+
+    .bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-icon,
+    .bd-sidebar-primary #pst-collapse-sidebar-button:hover .pst-collapse-sidebar-label,
+    .bd-sidebar-primary nav.bd-links .current>a,
+    .bd-sidebar-primary nav.bd-links li>a:hover {
+        color: var(--primary-spirit)
+    }
+
+    .bd-sidebar-primary nav.bd-links li>a {
+        color: var(--permawhite)
+    }
+}
+
+
+
 
 /*======================================================================
-  4. HERO
+  5. HERO
 ======================================================================*/
 
 /* Hero image container */
@@ -243,7 +269,7 @@ ul.navbar-nav li:not(:last-child)::after {
 
 
 /*======================================================================
-  5. SITE FOOTER
+  6. SITE FOOTER
 ======================================================================*/
 
 footer {
@@ -344,7 +370,7 @@ footer {
 
 
 /*======================================================================
-  6. CONTENT
+  7. CONTENT
 ======================================================================*/
 
 /*
@@ -443,7 +469,7 @@ footer {
 
 
 /*======================================================================
-  7. TYPOGRAPHY
+  8. TYPOGRAPHY
 ======================================================================*/
 
 /* Justify paragraphs on large screens */
@@ -455,7 +481,7 @@ footer {
 } */
 
 /*======================================================================
-  8. SEARCH
+  9. SEARCH
 ======================================================================*/
 
 /* Highlight matching search terms */
@@ -497,7 +523,7 @@ table.docutils tbody tr:nth-child(even) {
 
 
 /*======================================================================
-  9. CARDS
+  10. CARDS
 ======================================================================*/
 
 /* Reduce text size inside cards */
@@ -512,7 +538,7 @@ table.docutils tbody tr:nth-child(even) {
 
 
 /*======================================================================
-  10. RESPONSIVE DESIGN
+  11. RESPONSIVE DESIGN
 ======================================================================*/
 
 /* Mobile */
@@ -539,7 +565,7 @@ table.docutils tbody tr:nth-child(even) {
 
 
 /*======================================================================
-  11. MISCELLANEOUS
+  12. MISCELLANEOUS
 ======================================================================*/
 
 /* Hide paragraphs containing links to Python source files */
