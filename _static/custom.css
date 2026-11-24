@@ -659,6 +659,10 @@ div.people-card {
     height: 200px;
 }
 
+div.nopic-card {
+    flex-direction: column;
+}
+
 .people-card-title {
     font-family: var(--oswald);
     font-size: 1.3em;
@@ -694,6 +698,11 @@ html[data-mode="dark"] {
     font-size: .7em;
     font-family: var(--fa-family-classic);
     font-weight: 900
+}
+
+div.nopic-card > .people-card-position {
+    margin-bottom: 0rem;
+    align-items: center;
 }
 
 p.people-card-lab {

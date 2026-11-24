@@ -7,62 +7,38 @@ html_theme.sidebar_secondary.remove: true
 # Alumni
 
 (rafael-irizarry)=
-## [Rafael Irizarry, Ph.D.](https://rafalab.dfci.harvard.edu/)
+```{grid} 1 1 1 1
+:::{grid-item-card} [Rafael A. Irizarry, Ph.D.](https://hsph.harvard.edu/profile/rafael-a-irizarry/)
+:class-card: people-card .nonfac-card
+:class-body: people-card-body
+:class-title: people-card-title
+:img-top: /_static/people/rafael-irizarry.webp
+:img-alt: Rafael A. Irizarry, Ph.D.
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+<span>Professor of Biostatistics, [Harvard T.H. Chan School of Public Health](https://hsph.harvard.edu/)</span>
 
-::::{grid-item-card}
-:columns: 12 12 3 3
+{.people-card-position .last-position}
+Until June 2013, Professor of Biostatistics at Johns Hopkins University
 
-:::{image} /_static/people/rafael-irizarry.webp
-:width: 240px
-:alt: Rafael Irizarry, Ph.D.
+{.people-card-institution .last-institution}
+[Dana Farber Cancer Insitute](https://www.dana-farber.org/)
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-**Professor**
-
-
-JHU Biostatistics (until June 2013)
-
-
-[Dana Farber Cancer Institute](https://www.dana-farber.org/)
-
-
-Harvard University
-
-[rafa@jhu.edu](mailto:rafa@jhu.edu)
-
-::::
 ```
 
 (christopher-pockrandt)=
-## Christopher Pockrandt, Ph.D.
+```{grid} 1 1 1 1
+:::{grid-item-card} Christopher Pocktrandt, Ph.D.
+:class-card: people-card
+:class-body: people-card body nopic-card
+:class-title: people-card-title
 
-```{grid} 12
-:gutter: 1
+{.people-card-position}
+Until 2022, Postdoctoral Fellow
 
-::::{grid-item-card}
-:columns: 12 12 3 3
-
-:::{image} /_static/people/christopher-pockrandt.webp
-:width: 240px
-:alt: Christopher Pockrandt, Ph.D.
+{.people-card-lab}
+<span>{ref}`Salzberg <steven-l-salzberg>` Lab</span>
 :::
-
-::::
-
-::::{grid-item-card}
-:columns: 12 12 9 9
-
-{ref}`Salzberg <steven-l-salzberg>` Lab  @ JHU (until Feb. 2022)
-
-::::
 ```
 
 (florian-breitwieser)=
